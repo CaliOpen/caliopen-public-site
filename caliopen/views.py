@@ -2,7 +2,7 @@ from pyramid.view import view_config
 from pyramid.i18n import TranslationString
 
 
-@view_config(route_name='home', renderer='templates/layout/home.pt')
+@view_config(route_name='home', renderer='templates/layout2/home.pt')
 def my_view(request):
     return {
         'project': 'caliopen',
