@@ -109,7 +109,7 @@ header {
 }
 
 footer {
-  padding: 60px 0;
+  padding: 50px 0;
 
   div.gandi {
     .make-md-column(4);
@@ -187,14 +187,28 @@ footer {
   }
 
   div.copyright {
-    margin: 50px 0;
+    margin: 40px 0;
     .make-md-column(12);
   }
 }
 
-// main {
-//   text-align: center;
-//   background-color: #e4e4e4;
-// }
+.big-icons {
+  h3 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #6B6A6A;
+    font-size: 1.6em;
+    margin: 35px 0;
+  }
 
+  a {
+    .logo();
+    .size(120px, 120px);
+    .center-block();
+  }
 
+  a ~ p {
+    margin: 30px 20px;
+  }
+}

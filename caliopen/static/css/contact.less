@@ -31,13 +31,7 @@ main {
 #contact-icons {
   article {
     .make-md-column(4);
-    min-height: 200px;
-
-    h3 {
-      text-align: center;
-      font-weight: 800;
-      margin-bottom: 25px;
-    }
+    min-height: 250px;
 
     &#github, &#blog {
       background: #E4E4E4;
@@ -46,9 +40,8 @@ main {
     &#github {
       a {
         background-image: url('/static/images/contact_github.png');
-        width: 90px;
-        height: 88px;
-        margin: 0 auto;
+        .size(90px, 88px);
+        .center-block();
         &:hover {
           background-image: url('/static/images/contact_github_hover.png');
         }
@@ -58,9 +51,8 @@ main {
     &#blog {
       a {
         background-image: url('/static/images/contact_blog.png');
-        width: 87px;
-        height: 88px;
-        margin: 0 auto;
+        .size(87px, 88px);
+        .center-block();
         &:hover {
           background-image: url('/static/images/contact_blog_hover.png');
         }
@@ -72,9 +64,8 @@ main {
 
       a {
         background-image: url('/static/images/contact_email.png');
-        width: 92px;
-        height: 88px;
-        margin: 0 auto;
+        .size(92px, 88px);
+        .center-block();
         &:hover {
           background-image: url('/static/images/contact_email_hover.png');
         }
