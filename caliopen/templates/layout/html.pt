@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="${page_description}">
     <meta name="author" content="${page_author}">
+    <meta name="viewport" content="width=device-width"/>
     <link rel="shortcut icon" href="${request.static_url('caliopen:static/pyramid-16x16.png')}">
 
     <title>${page_title}</title>
