@@ -2,6 +2,10 @@
 
 @font-family-base: 'Open Sans', sans-serif;
 
+html {
+  background: #333333;
+}
+
 body {
   font-weight: 300;
 }
@@ -84,10 +88,7 @@ header {
           .inline-block();
           a {
             &:hover, &:active {
-              background-color: #666;
-            }
-            &.active {
-              background-color: #33ccff;
+              background-color: #2BAFDB;
             }
           }
           &:last-child {
@@ -105,6 +106,8 @@ header {
 }
 
 footer {
+  padding: 60px 0;
+
   div.gandi {
     .make-md-column(4);
     font-weight: bold;
@@ -121,6 +124,9 @@ footer {
   }
 
   div.sitemap {
+    line-height: 2em;
+
+
     div:first-child {
       .make-md-column(2);
     }
@@ -178,6 +184,7 @@ footer {
   }
 
   div.copyright {
+    margin: 50px 0;
     .make-md-column(12);
   }
 }
