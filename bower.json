@@ -1,0 +1,21 @@
+{
+  "name": "caliopen-public-site",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CaliOpen/caliopen-public-site",
+  "authors": [
+    "Gandi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "caliopen/static/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
