@@ -1,0 +1,338 @@
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(/static/fonts/open-sans/OpenSans-Italic-webfont.eot);
+  font-weight: 400;
+  font-style: "italic";
+  src: url(/static/fonts/open-sans/OpenSans-Italic-webfont.eot?iefix) format('eot'), url(/static/fonts/open-sans/OpenSans-Italic-webfont.woff) format('woff'), url(/static/fonts/open-sans/OpenSans-Italic-webfont.ttf) format('truetype'), url(/static/fonts/open-sans/OpenSans-Italic-webfont.svg#OpenSans) format('svg');
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(/static/fonts/open-sans/OpenSans-BoldItalic-webfont.eot);
+  font-weight: 700;
+  font-style: "italic";
+  src: url(/static/fonts/open-sans/OpenSans-BoldItalic-webfont.eot?iefix) format('eot'), url(/static/fonts/open-sans/OpenSans-BoldItalic-webfont.woff) format('woff'), url(/static/fonts/open-sans/OpenSans-BoldItalic-webfont.ttf) format('truetype'), url(/static/fonts/open-sans/OpenSans-BoldItalic-webfont.svg#OpenSans) format('svg');
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(/static/fonts/open-sans/OpenSans-Bold-webfont.eot);
+  font-weight: 700;
+  font-style: "normal";
+  src: url(/static/fonts/open-sans/OpenSans-Bold-webfont.eot?iefix) format('eot'), url(/static/fonts/open-sans/OpenSans-Bold-webfont.woff) format('woff'), url(/static/fonts/open-sans/OpenSans-Bold-webfont.ttf) format('truetype'), url(/static/fonts/open-sans/OpenSans-Bold-webfont.svg#OpenSans) format('svg');
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(/static/fonts/open-sans/OpenSans-Regular-webfont.eot);
+  font-weight: 400;
+  font-style: "normal";
+  src: url(/static/fonts/open-sans/OpenSans-Regular-webfont.eot?iefix) format('eot'), url(/static/fonts/open-sans/OpenSans-Regular-webfont.woff) format('woff'), url(/static/fonts/open-sans/OpenSans-Regular-webfont.ttf) format('truetype'), url(/static/fonts/open-sans/OpenSans-Regular-webfont.svg#OpenSans) format('svg');
+}
+
+body {
+  font-family: "OpenSans";
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: OpenSans, Arial, Helvetica, Verdana, sans-serif;
+  font-weight: 300;
+  &:first-child {
+    margin: 0;
+  }
+}
+
+ol, ul {
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.logo {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  a {
+    &:link, &:visited {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 400;
+    }
+    &:link, &:visited {
+    }
+  }
+}
+
+header {
+  position: relative;
+  min-height: 60px;
+  background-color: #333;
+  h1 {
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    &:first-child {
+      margin-left: -576px;
+    }
+    a {
+      background-image: url('/static/images/logo_caliopen_header.png');
+      width: 191px;
+      height: 38px;
+    }
+  }
+}
+
+footer {
+  padding: 50px 56px;
+  min-height: 134px;
+  #support-by-gandi {
+    display: inline-block;
+    width: 492px;
+    margin: 0;
+    min-height: 80px;
+    vertical-align: top;
+    line-height: 2.1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    a {
+      display: inline-block;
+      background-image: url('/static/images/footer_logo_gandi.png');
+      width: 114px;
+      height: 31px;
+      vertical-align: middle;
+      margin: -4px 0 0 8px;
+    }
+  }
+  .columns {
+    width: 1088px;
+    margin: 0 auto;
+    ul {
+      font-size: 0.9rem;
+      padding-top: 7px;
+      vertical-align: top;
+      &.footer-links {
+        display: inline-block;
+        width: 171px;
+        margin: 0;
+      }
+      &:last-of-type {
+        width: 343px;
+      }
+      li {
+        line-height: 1.4rem;
+        &:first-child {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 0.75rem;
+        }
+        a {
+          &:link, &:visited {
+            color: #a7a7a7;
+          }
+          &:hover, &:active {
+            color: #fff;
+          }
+        }
+      }
+    }
+    #twitter, #facebook {
+      vertical-align: top;
+      width: 32px;
+      height: 32px;
+    }
+    #twitter {
+      background-image: url('/static/images/footer_twitter.png');
+      margin-right: 18px;
+      &:hover {
+        background-image: url('/static/images/footer_twitter_hover.png');
+      }
+    }
+    #facebook {
+      background-image: url('/static/images/footer_facebook.png');
+      &:hover {
+        background-image: url('/static/images/footer_facebook_hover.png');
+      }
+    }
+    #copyright {
+      margin-top: 46px;
+      letter-spacing: normal;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+nav {
+  &#navigation-main {
+    width: 1200px;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    margin-left: -600px;
+    text-align: right;
+    ul {
+      margin-right: 136px;
+      li {
+        display: inline-block;
+        a {
+          &:hover, &:active {
+            background-color: #666;
+          }
+          &.active {
+            background-color: #33ccff;
+          }
+        }
+        &:last-child {
+          margin-right: 14px;
+        }
+      }
+      .button {
+        margin-right: 12px;
+        padding: 6px 12px;
+        .border-radius(8px);
+      }
+    }
+  }
+}
+
+main {
+  text-align: center;
+  background-color: #e4e4e4;
+}
+
+.columns {
+  letter-spacing: -0.25em;
+  .column {
+    display: inline-block;
+    letter-spacing: normal;
+    &.column-1 {
+      width: 100%;
+    }
+    &.column-3 {
+      width: 400px;
+    }
+  }
+}
+
+#home {
+  h2 {
+    margin-top: 55px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 2.8rem;
+  }
+  .column {
+    text-align: center;
+    &.column-1 {
+      li {
+        display: inline-block;
+        width: 150px;
+      }
+      button {
+        .border-radius(8px);
+        font-family: "OpenSans";
+        font-size: 1.35rem;
+        font-weight: bold;
+        padding: 12px 40px;
+        color: #fff;
+        background-color: #f76548;
+        border: 0px;
+        margin-top: 350px;
+        &:hover {
+          background-color: #ea5537;
+        }
+      }
+    }
+    &.column-3 {
+      width: 312px;
+      padding: 32px 44px 0;
+      &:nth-child(odd) {
+        background:#eee;
+      }
+    }
+  }
+  article {
+    min-height: 268px;
+    background-color: #e4e4e4;
+    &:first-child {
+      min-height: 600px;
+      background: #33ccff url("/static/images/home_main_image.png") center 190px no-repeat;
+    }
+    &.column-3 {
+      color: #333;
+      h3 {
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      p {
+        text-align: left;
+        font-size: 0.9rem;
+      }
+      a {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+      }
+    }
+    &#video {
+      a {
+        background-image: url('/static/images/home_about.png');
+        &:hover {
+          background-image: url('/static/images/home_about_hover.png');
+        }
+      }
+    }
+    &#github {
+      a {
+        background-image: url('/static/images/home_github.png');
+        &:hover {
+          background-image: url('/static/images/home_github_hover.png');
+        }
+      }
+    }
+    &#details {
+      a {
+        background-image: url('/static/images/home_details.png');
+        &:hover {
+          background-image: url('/static/images/home_details_hover.png');
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
