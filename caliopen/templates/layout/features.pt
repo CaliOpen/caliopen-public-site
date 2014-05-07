@@ -1,9 +1,27 @@
 <html metal:use-macro="load: page.pt">
+  <script metal:fill-slot="inlinescript">
+    $(function(){
+      $("#slides").slidesjs({
+        active: false,
+        width: 1200,
+        height: 800,
+        navigation: {
+          active: true
+        }
+      });
+    });
+  </script>
+
   <main metal:fill-slot="content" id="features-slider">
     <div class="layout">
       <article>
-        <div class="slider">SLIDER</div>
-        <div class="slider2">SLIDER2</div>
+        <div class="slider">
+          <div id="slides">
+            <img src="/static/images/features_carrousel_1.png" />
+            <img src="/static/images/features_carrousel_2.png" />
+            <img src="/static/images/features_carrousel_3.png" />
+          </div>
+        </div>
       </article>
     </div>
   </main>
@@ -76,6 +94,9 @@
     <div class="layout">
       <article>
         <p>Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs.</p>
+        <p>
+          <span class="illustration"></span>
+        </p>
       </article>
     </div>
   </main>

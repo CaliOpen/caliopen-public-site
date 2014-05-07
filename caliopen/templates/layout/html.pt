@@ -14,8 +14,6 @@
 
     <link rel="stylesheet/less" type="text/css" href="${request.static_url('caliopen:static/css/styles.less')}" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-    <script src="${request.static_url('caliopen:static/js/less-1.7.0.min.js')}" type="text/javascript"></script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -29,6 +27,10 @@
     <footer metal:define-slot="footer"></footer>
 
     <script src="${request.static_url('caliopen:static/js/jquery-1.11.1.min.js')}" type="text/javascript"></script>
+    <script src="${request.static_url('caliopen:static/js/jquery.slides.min.js')}" type="text/javascript"></script>
+    <script src="${request.static_url('caliopen:static/js/less-1.7.0.min.js')}" type="text/javascript"></script>
+
+    <script type="text/javascript" metal:define-slot="inlinescript"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

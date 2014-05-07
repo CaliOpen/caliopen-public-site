@@ -1,0 +1,64 @@
+#slides {
+  display: none;
+
+  .slidesjs-previous, .slidesjs-next {
+    display: none;
+  }
+
+  ul.slidesjs-pagination {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+      .inline-block();
+      list-style: none;
+
+      a {
+        text-indent: -9999px;
+        .inline-block();
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        background-color: #A3A3A3;
+        margin: 20px 5px;
+
+        &:hover, &.active {
+          background-color: #F76548;
+        }
+      }
+    }
+  }
+
+  /* For tablets & smart phones */
+  @media (max-width: 767px) {
+    body {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .container {
+      width: auto
+    }
+  }
+
+  /* For smartphones */
+  @media (max-width: 480px) {
+    .container {
+      width: auto
+    }
+  }
+
+  /* For smaller displays like laptops */
+  @media (min-width: 768px) and (max-width: 979px) {
+    .container {
+      width: 724px
+    }
+  }
+
+  /* For larger displays */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px
+    }
+  }
+}
