@@ -1,13 +1,35 @@
-main {
-  text-align: center;
-  background-color: #e4e4e4;
+@import '../vendors/bootstrap/less/bootstrap.less';
+
+@font-family-base: 'Open Sans', sans-serif;
+
+.layout {
+  .center-block();
+  .container-fluid();
+
+  > div {
+    .row();
+  }
 }
 
-.logo {
-  text-indent: 110%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  .layout {
+    width: 768px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+  .layout {
+    width: 992px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  .layout {
+    width: 1200px;
+  }
 }
 
 header, footer {
@@ -25,69 +47,61 @@ header, footer {
 }
 
 header {
-  position: relative;
   min-height: 60px;
-  background-color: #333;
-  h1 {
-    position: absolute;
-    top: 14px;
-    left: 50%;
-    &:first-child {
-      margin-left: -576px;
-    }
-    a {
-      background-image: url('/static/images/logo_caliopen_header.png');
-      width: 191px;
-      height: 38px;
+
+  div.title {
+    .make-md-column(3);
+
+    h1 {
+      margin-top: 12px;
+      a {
+        background-image: url('/static/images/logo_caliopen_header.png');
+        width: 191px;
+        height: 38px;
+        .logo();
+      }
     }
   }
-}
 
-nav {
-  &#navigation-main {
-    width: 1200px;
-    position: absolute;
-    top: 4px;
-    left: 50%;
-    margin-left: -600px;
+  div.nav {
     text-align: right;
-    ul {
-      margin-right: 136px;
-      li {
-        display: inline-block;
-        a {
-          &:hover, &:active {
-            background-color: #666;
+    .make-md-column(9);
+
+    nav {
+      margin-top: 19px;
+      font-size: 1.1em;
+      ul {
+        padding: 0;
+        li {
+          .inline-block();
+          a {
+            &:hover, &:active {
+              background-color: #666;
+            }
+            &.active {
+              background-color: #33ccff;
+            }
           }
-          &.active {
-            background-color: #33ccff;
+          &:last-child {
+            margin-right: 14px;
           }
         }
-        &:last-child {
-          margin-right: 14px;
+        .button {
+          margin-right: 12px;
+          padding: 6px 12px;
+          .border-radius(8px);
         }
-      }
-      .button {
-        margin-right: 12px;
-        padding: 6px 12px;
-        .border-radius(8px);
       }
     }
   }
 }
 
 footer {
-  padding: 50px 56px;
-  min-height: 134px;
-  #support-by-gandi {
-    display: inline-block;
-    width: 492px;
-    margin: 0;
-    min-height: 80px;
-    vertical-align: top;
-    line-height: 2.1rem;
-    font-size: 0.8rem;
+  div.gandi {
+    .make-md-column(4);
     font-weight: bold;
+    font-size: 0.9em;
+
     a {
       display: inline-block;
       background-image: url('/static/images/footer_logo_gandi.png');
@@ -97,60 +111,72 @@ footer {
       margin: -4px 0 0 8px;
     }
   }
-  .columns {
-    width: 1088px;
-    margin: 0 auto;
+
+  div.sitemap {
+    div:first-child {
+      .make-md-column(2);
+    }
+    div:last-child {
+      .make-md-column(2);
+    }
+    font-size: 0.9em;
+
     ul {
-      font-size: 0.9rem;
-      padding-top: 7px;
-      vertical-align: top;
-      &.footer-links {
-        display: inline-block;
-        width: 171px;
-        margin: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+
+      &:first-child {
+        font-weight: bold;
+        text-transform: uppercase;
       }
-      &:last-of-type {
-        width: 343px;
-      }
-      li {
-        line-height: 1.4rem;
-        &:first-child {
-          text-transform: uppercase;
-          font-weight: bold;
-          font-size: 0.75rem;
+
+      a {
+        &:link, &:visited {
+          color: #a7a7a7;
         }
-        a {
-          &:link, &:visited {
-            color: #a7a7a7;
-          }
-          &:hover, &:active {
-            color: #fff;
-          }
+        &:hover, &:active {
+          color: #fff;
         }
       }
-    }
-    #twitter, #facebook {
-      vertical-align: top;
-      width: 32px;
-      height: 32px;
-    }
-    #twitter {
-      background-image: url('/static/images/footer_twitter.png');
-      margin-right: 18px;
-      &:hover {
-        background-image: url('/static/images/footer_twitter_hover.png');
-      }
-    }
-    #facebook {
-      background-image: url('/static/images/footer_facebook.png');
-      &:hover {
-        background-image: url('/static/images/footer_facebook_hover.png');
-      }
-    }
-    #copyright {
-      margin-top: 46px;
-      letter-spacing: normal;
-      font-size: 0.9rem;
     }
   }
+
+  div.social {
+    text-align: right;
+    .make-md-column(4);
+
+    a {
+      .size(32px, 32px);
+      .logo();
+      .inline-block();
+      &.twitter {
+        background-image: url('/static/images/footer_twitter.png');
+        margin-right: 18px;
+        &:hover {
+          background-image: url('/static/images/footer_twitter_hover.png');
+        }
+      }
+      &.facebook {
+        background-image: url('/static/images/footer_facebook.png');
+        &:hover {
+          background-image: url('/static/images/footer_facebook_hover.png');
+        }
+      }
+    }
+  }
+
+  div.copyright {
+    .make-md-column(12);
+  }
 }
+
+main {
+  text-align: center;
+  background-color: #e4e4e4;
+}
+
+

@@ -1,15 +1,23 @@
 <html metal:use-macro="load: html.pt">
-  <header metal:fill-slot="header">
-    <h1><a href="/" title="Caliopen" class="logo">Caliopen</a></h1>
-    <nav metal:fill-slot="nav" role="navigation" id="navigation-main">
-      <ul>
-        <li id="navigation-main-take-a-tour"><a href="/tour" class="button">Take a tour</a></li>
-        <li id="navigation-main-about"><a href="/about" class="button">About</a></li>
-        <li id="navigation-main-features"><a href="/features" class="button">Features</a></li>
-        <li id="navigation-main-contact-us"><a href="/contact" class="button">Contact us</a></li>
-      </ul>
-    </nav>
-  </header>
+
+  <div class="layout">
+    <header metal:fill-slot="header">
+
+      <div>
+        <h1><a href="/" title="Caliopen" class="logo">Caliopen</a></h1>
+
+        <nav metal:fill-slot="nav" role="navigation" id="navigation-main">
+          <ul>
+            <li id="navigation-main-take-a-tour"><a href="/tour" class="button">Take a tour</a></li>
+            <li id="navigation-main-about"><a href="/about" class="button">About</a></li>
+            <li id="navigation-main-features"><a href="/features" class="button">Features</a></li>
+            <li id="navigation-main-contact-us"><a href="/contact" class="button">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+
   <footer metal:fill-slot="footer" class="columns">
     <div class="columns">
       <p id="support-by-gandi" class="column">A project supported by <a href="http://www.gandi.net" title="Gandi.net" class="logo">Gandi.net</a></p>
@@ -28,4 +36,5 @@
       <p id="copyright">© 2014 CaliOpen</p>
     </div>
   </footer>
+
 </html>
