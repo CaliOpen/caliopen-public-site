@@ -1,0 +1,76 @@
+#contact {
+  h2 {
+    margin: 35px 0px 23px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+  }
+  .column {
+    &.column-3 {
+      width: 312px;
+      padding: 38px 44px 0;
+      text-align: center;
+      &:nth-child(odd) {
+        background:#eee;
+      }
+    }
+  }
+  article {
+    min-height: 200px;
+    background-color: #e4e4e4;
+    &:first-child {
+      min-height: 380px;
+      background-color: #ccc;
+      .content {
+        width: 970px;
+        padding: 20px 115px;
+        margin: 0 auto;
+        text-align: left;
+      }
+      p {
+        line-height: 2.4rem;
+        margin-bottom: 38px;
+      }
+    }
+    &.column-3 {
+      color: #333;
+      h3 {
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+    }
+    &#github {
+      a {
+        background-image: url('/static/images/contact_github.png');
+        width: 90px;
+        height: 88px;
+        margin: 0 auto;
+        &:hover {
+          background-image: url('/static/images/contact_github_hover.png');
+        }
+      }
+    }
+    &#email {
+      a {
+        background-image: url('/static/images/contact_email.png');
+        width: 92px;
+        height: 88px;
+        margin: 0 auto;
+        &:hover {
+          background-image: url('/static/images/contact_email_hover.png');
+        }
+      }
+    }
+    &#blog {
+      a {
+        background-image: url('/static/images/contact_blog.png');
+        width: 87px;
+        height: 88px;
+        margin: 0 auto;
+        &:hover {
+          background-image: url('/static/images/contact_blog_hover.png');
+        }
+      }
+    }
+  }
+}
