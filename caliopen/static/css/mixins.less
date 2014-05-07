@@ -23,3 +23,11 @@
   line-height: 2em;
   font-size: 1.2em;
 }
+
+.illustration(@width, @height, @background, @border-color, @radius:3px) {
+  display: block;
+  .size(@width, @height);
+  background: @background;
+  border: 8px solid @border-color;
+  .border-radius(@radius);
+}
