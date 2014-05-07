@@ -1,0 +1,62 @@
+#features {
+  .columns {
+    position: relative;
+    article {
+      background-color: #e4e4e4;
+      &:first-child {
+        min-height: 612px;
+        background-color: #ccc;
+        .slider {
+          width: 720px;
+          height: 480px;
+          border: 1px solid blue;
+          margin: 53px auto;
+        }
+      }
+      &.features-list {
+        background-color: #fff;
+      }
+      .content {
+        width: 1200px;
+        margin: 0 auto;
+        text-align: left;
+        li {
+          width: 600px;
+          float: left;
+          background: transparent url('/static/images/features_mode.png') left top no-repeat;
+          padding: 0 50px 10px 100px;
+          &#confidentiality {
+            background-image: url('/static/images/features_confidentiality.png');
+          }
+          &#importance {
+            background-image: url('/static/images/features_importance.png');
+          }
+          &#smart-appointment {
+            background-image: url('/static/images/features_rendezvous.png');
+          }
+          &#auto-label {
+            background-image: url('/static/images/features_labels.png');
+          }
+          &#custom-views {
+            background-image: url('/static/images/features_vues.png');
+          }
+          &#intuitive-search {
+            background-image: url('/static/images/features_recherche.png');
+          }
+          &#devices-manager {
+            background-image: url('/static/images/features_devices.png');
+          }
+          &#degraded-mode {
+            background-image: url('/static/images/features_modes.png');
+          }
+          &#advanced-settings {
+            background-image: url('/static/images/features_parametrages.png');
+          }
+          &#centralization {
+            background-image: url('/static/images/features_centralization.png');
+          }
+        }
+      }
+    }
+  }
+}
