@@ -12,4 +12,4 @@ Installation
 - ``bower install``
 - Activate venv
 - ``pserve development.ini``
-- Open localhost:6543
+- Open ``localhost:6543``
