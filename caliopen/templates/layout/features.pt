@@ -1,77 +1,81 @@
 <html metal:use-macro="load: page.pt">
-  <main metal:fill-slot="content" id="features">
-    <div class="columns">
-      <article class="column column-1">
-        <div class="slider"></div>
+  <main metal:fill-slot="content" id="features-slider">
+    <div class="layout">
+      <article>
+        <div class="slider">SLIDER</div>
+        <div class="slider2">SLIDER2</div>
       </article>
-      <article class="column column-1 features-list">
-        <div class="content">
-          <ul>
-            <li id="confidentiality">
-              <h3>Niveaux de confidentialité</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="intuitive-search">
-              <h3>Recherche intuitive</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="importance">
-              <h3>Niveaux d'importance'</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="devices-manager">
-              <h3>Gestion des devices</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="smart-appointment">
-              <h3>Rendez-vous intelligents</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="degraded-mode">
-              <h3>Mode dégradé</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="auto-label">
-              <h3>Labels automatiques</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="advanced-settings">
-              <h3>Paramétrages avancés</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="custom-views">
-              <h3>Vue personnalisées</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-          <ul>
-            <li id="centralization">
-              <h3>Centralisation des messages</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-            </li>
-          </ul>
-        </div>
-      </article>
-      <article class="column column-1">
-        <div class="content">
-          <p>Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs.</p>
-        </div>
+    </div>
+  </main>
+
+  <main metal:fill-slot="content2" id="features-icons">
+    <div class="layout">
+      <ul>
+        <li id="confidentiality">
+          <h3>Niveaux de confidentialité</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+
+        <li id="intuitive-search">
+          <h3>Recherche intuitive</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+      </ul>
+
+      <ul>
+        <li id="importance">
+          <h3>Niveaux d'importance'</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+
+        <li id="devices-manager">
+          <h3>Gestion des devices</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+      </ul>
+
+      <ul>
+        <li id="smart-appointment">
+          <h3>Rendez-vous intelligents</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+
+        <li id="degraded-mode">
+          <h3>Mode dégradé</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+      </ul>
+
+      <ul>
+         <li id="auto-label">
+          <h3>Labels automatiques</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+
+        <li id="advanced-settings">
+          <h3>Paramétrages avancés</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+      </ul>
+
+      <ul>
+        <li id="custom-views">
+          <h3>Vue personnalisées</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+
+        <li id="centralization">
+          <h3>Centralisation des messages</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <main metal:fill-slot="content3" id="features-layout">
+    <div class="layout">
+      <article>
+        <p>Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs.</p>
       </article>
     </div>
   </main>

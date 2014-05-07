@@ -25,6 +25,7 @@
     <header metal:define-slot="header"></header>
     <main metal:define-slot="content"></main>
     <main metal:define-slot="content2"></main>
+    <main metal:define-slot="content3"></main>
     <footer metal:define-slot="footer"></footer>
 
     <script src="${request.static_url('caliopen:static/js/jquery-1.11.1.min.js')}" type="text/javascript"></script>
