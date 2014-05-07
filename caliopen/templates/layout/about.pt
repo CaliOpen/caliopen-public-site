@@ -1,0 +1,44 @@
+<html metal:use-macro="load: page.pt">
+  <main metal:fill-slot="content" id="about-text">
+    <div class="layout">
+      <div>
+        <div class="content">
+          <h2>Les grandes aventures commencent toujours par un premier pas...</h2>
+          <p>Un jour, Jérémie Zimmermann est passé par moi, pendant ses vacances, en pleine affaire PRISM.</p>
+          <p>Nous avons parlé, ce jour là, d'un ancien projet de service de courrier électronique, respectueux de la vie privée des utilisateurs, mais qui - face à l'ogre Google - n'a jamais vu le jour. Jérémie m'a alors poussé à relancer ce projet, expliquant que désormais, grâce à Edward Snowden, une partie du public était sans doute prête à quitter GMail et les autres pour quelque chose de moins centralisé, de moins propriétaire, et qui ne soit pas basé sur l'exploitation du contenu de nos échanges privés.</p>
+          <p>Depuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur.</p>
+        </div>
+      </div>
+  </main>
+
+  <main metal:fill-slot="content2" id="about-objectives">
+    <div class="layout">
+      <div>
+        <div class="content">
+          <h2>Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne.</h2>
+        </div>
+      </div>
+
+      <ul>
+        <ol>
+          <p>1</p>
+          <p>La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé.</p>
+        </ol>
+        <ol>
+          <p>2</p>
+          <p>Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier.</p>
+        </ol>
+      </ul>
+  </main>
+
+  <main metal:fill-slot="content3" id="about-items">
+    <div class="layout">
+      <div>
+        <div class="content">
+          <h2>Aujourd'hui, nous avons besoin d'aide.</h2>
+          <p>Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.</p>
+          <p>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter.</p>
+        </div>
+      </div>
+  </main>
+</html>
