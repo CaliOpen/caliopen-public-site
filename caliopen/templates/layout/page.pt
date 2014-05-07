@@ -1,39 +1,63 @@
 <html metal:use-macro="load: html.pt">
 
-  <div class="layout">
-    <header metal:fill-slot="header">
+  <header metal:fill-slot="header">
+    <div class="layout">
+      <div>
+        <div class="title">
+          <h1><a href="/" title="Caliopen">Caliopen</a></h1>
+        </div>
+
+        <div class="nav">
+          <nav metal:fill-slot="nav" role="navigation">
+            <ul>
+              <li id="navigation-main-take-a-tour"><a href="/tour" class="button">Take a tour</a></li>
+              <li id="navigation-main-about"><a href="/about" class="button">About</a></li>
+              <li id="navigation-main-features"><a href="/features" class="button">Features</a></li>
+              <li id="navigation-main-contact-us"><a href="/contact" class="button">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <footer metal:fill-slot="footer">
+    <div class="layout">
+      <div>
+        <div class="gandi">
+          <p id="support-by-gandi" class="column">A project supported by
+          <a href="http://www.gandi.net" title="Gandi.net" class="logo">Gandi.net</a></p>
+        </div>
+
+        <div class="sitemap">
+          <div>
+            <ul class="footer-links column">
+              <li id="footer-link-product" class="list-title">Product</li>
+              <li id="footer-link-origins"><a href="/">The origins</a></li>
+              <li id="footer-link-download"><a href="/">Download</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="footer-links column">
+              <li id="footer-link-community" class="list-title">Community</li>
+              <li id="footer-link-fork-us"><a href="/">Fork us on GitHub</a></li>
+              <li id="footer-link-blog"><a href="/">Visit our blog</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="social">
+          <a href="http://www.twitter.com" class="twitter">Twitter</a>
+          <a href="http://www.facebook.com" class="facebook">Facebook</a>
+        </div>
+      </div>
 
       <div>
-        <h1><a href="/" title="Caliopen" class="logo">Caliopen</a></h1>
-
-        <nav metal:fill-slot="nav" role="navigation" id="navigation-main">
-          <ul>
-            <li id="navigation-main-take-a-tour"><a href="/tour" class="button">Take a tour</a></li>
-            <li id="navigation-main-about"><a href="/about" class="button">About</a></li>
-            <li id="navigation-main-features"><a href="/features" class="button">Features</a></li>
-            <li id="navigation-main-contact-us"><a href="/contact" class="button">Contact us</a></li>
-          </ul>
-        </nav>
+        <div class="copyright">
+          <p id="copyright">© 2014 CaliOpen</p>
+        </div>
       </div>
-    </header>
-  </div>
-
-  <footer metal:fill-slot="footer" class="columns">
-    <div class="columns">
-      <p id="support-by-gandi" class="column">A project supported by <a href="http://www.gandi.net" title="Gandi.net" class="logo">Gandi.net</a></p>
-      <ul class="footer-links column">
-        <li id="footer-link-product" class="list-title">Product</li>
-        <li id="footer-link-origins"><a href="/">The origins</a></li>
-        <li id="footer-link-download"><a href="/">Download</a></li>
-      </ul>
-      <ul class="footer-links column">
-        <li id="footer-link-community" class="list-title">Community</li>
-        <li id="footer-link-fork-us"><a href="/">Fork us on GitHub</a></li>
-        <li id="footer-link-blog"><a href="/">Visit our blog</a></li>
-      </ul>
-      <a href="http://www.twitter.com" class="column logo" id="twitter">Twitter</a>
-      <a href="http://www.facebook.com" class="column logo" id="facebook">Facebook</a>
-      <p id="copyright">© 2014 CaliOpen</p>
     </div>
   </footer>
 

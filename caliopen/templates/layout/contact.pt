@@ -1,25 +1,33 @@
 <html metal:use-macro="load: page.pt">
-  <main metal:fill-slot="content" id="contact">
-    <div class="columns">
-      <article class="column column-1">
+  <main metal:fill-slot="content" id="contact-text">
+    <div class="layout">
+      <div>
         <div class="content">
-          <h2>Aujourd'hui, nous avons besoin d'aide</h2>
+          <h2>Aujourd'hui, nous avons besoin d'aide.</h2>
           <p>Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.</p>
-          <p>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter</p>
+          <p>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter.</p>
         </div>
-      </article>
-      <article class="column column-3" id="github">
-        <h3>Fork us on GitHub</h3>
-        <a href="/" class="logo">camera</a>
-      </article>
-      <article class="column column-3" id="email">
-        <h3>Send an email</h3>
-        <a href="/" class="logo">octopus Github</a>
-      </article>
-      <article class="column column-3" id="blog">
-        <h3>Visit our blog</h3>
-        <a href="/" class="logo">features</a>
-      </article>
+      </div>
+  </main>
+
+  <main metal:fill-slot="content2" id="contact-icons">
+    <div class="layout">
+      <div>
+        <article id="github">
+          <h3>Fork us on GitHub</h3>
+          <a href="/" class="logo">camera</a>
+        </article>
+
+        <article id="email">
+          <h3>Send an email</h3>
+          <a href="/" class="logo">octopus Github</a>
+        </article>
+
+        <article id="blog">
+          <h3>Visit our blog</h3>
+          <a href="/" class="logo">features</a>
+        </article>
+      </div>
     </div>
   </main>
 </html>
