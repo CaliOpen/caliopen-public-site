@@ -1,0 +1,59 @@
+<html metal:use-macro="load: page.pt">
+  <main metal:fill-slot="content" id="tour-intro">
+    <div class="layout">
+      <div>
+        <article>
+          <h2>And your privacy becomes completely private...</h2>
+          <ul>
+            <li>Centralize all of your private communications</li>
+            <li>Securely share confidential information</li>
+            <li>Enjoy an intuitive interface</li>
+          </ul>
+          <button>Try the demo</button>
+        </article>
+        <div class="screenshot">
+          <img src="/static/images/tour_main_vide.png" alt="screenshot"/>
+        </div>
+      </div>
+    </div>
+  </main>
+  <main metal:fill-slot="content2" id="tour-icons">
+    <div class="layout">
+      <div class="big-icons">
+        <article id="centralization">
+          <img src="/static/images/tour_centralize.png" alt="centralize"/>
+          <p>An application for centralize all your private communications,
+  at any time, everywhere</p>
+        </article>
+        <article id="confidentiality">
+          <img src="/static/images/tour_confidentiality.png" alt="confidentiality"/>
+          <p>A tool for control and verify the confidentiality level of your contacts, messages, files, devices and whatever</p>
+        </article>
+        <article id="ux">
+          <img src="/static/images/tour_ux.png" alt="user experience"/>
+          <p>A modern user experience for a better feeling with the application, everything is natural and design thinked</p>
+        </article>
+      </div>
+    </div>
+  </main>
+  <main metal:fill-slot="content3" id="tour-steps">
+    <div class="layout">
+      <article>
+        <ul>
+          <li id="about">
+            <h3>About</h3>
+            <p>Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée.<a href="/">Read more</a></p>
+          </li>
+          <li id="features">
+            <h3>Features</h3>
+            <p>De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie.<a href="/">Read more</a></p>
+          </li>
+          <li id="contact">
+            <h3>Contact</h3>
+            <p>Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous.<a href="/">Read more</a></p>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </main>
+</html>

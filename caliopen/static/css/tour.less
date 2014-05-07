@@ -1,0 +1,125 @@
+main {
+  &#tour-intro {
+    background-color: #ccc;
+  }
+
+  &#tour-icons {
+    background-color: #e4e4e4;
+  }
+}
+#tour-intro {
+  .layout {
+    padding: 40px 0;
+  }
+  article {
+    .make-md-column(5);
+    padding: 0 20px;
+
+    button {
+      margin: 40px 0 50px 0;
+      .border-radius(8px);
+      font-size: 1.8em;
+      font-weight: 800;
+      padding: 12px 40px;
+      color: #fff;
+      background-color: #f76548;
+      border: 0px;
+      &:hover {
+        background-color: #ea5537;
+      }
+    }
+    ul {
+      padding: 0;
+      margin: 50px 0 40px;
+      li {
+        padding: 0 0 0 44px;
+        list-style: none;
+        background: transparent url('/static/images/tour_coche.png') left 6px no-repeat;
+        .big-text();
+      }
+    }
+  }
+  .screenshot {
+    .make-md-column(7);
+    img {
+      .illustration(572px, 384px, #6EB0C5, #01455C);
+      .center-block();
+    }
+  }
+}
+#tour-icons {
+  article {
+    .make-md-column(4);
+    min-height: 270px;
+    padding: 20px 40px;
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    &#centralization {
+      img {
+        .size(191px, 126px);
+      }
+    }
+    &#confidentiality {
+      background-color: #eee;
+      img {
+        .size(198px, 126px);
+      }
+    }
+    &#ux {
+      img {
+        .size(137px, 126px);
+      }
+    }
+  }
+}
+#tour-steps {
+  article {
+    .make-md-column(10);
+    .make-md-column-offset(1);
+    ul {
+      padding: 0;
+      margin: 20px 0;
+
+      h3 {
+        margin-top: 0;
+        font-size: 1.3em;
+      }
+      li {
+        padding: 0 0 0 120px;
+        margin: 20px 0;
+        min-height: 110px;
+        list-style: none;
+        background: transparent url('/static/images/tour_picto_about.png') left top no-repeat;
+        &#about {
+          background-image: url('/static/images/tour_picto_about.png');
+        }
+        &#features {
+          background-image: url('/static/images/tour_picto_features.png');
+        }
+        &#contact {
+          background-image: url('/static/images/tour_picto_contact.png');
+        }
+      }
+    }
+  }
+}
+
+#tour {
+  h2 {
+    margin-top: 55px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+  }
+  article {
+    min-height: 268px;
+    background-color: #e4e4e4;
+    &:first-child {
+      min-height: 600px;
+      background: #33ccff url("/static/images/home_main_image.png") center 190px no-repeat;
+    }
+  }
+}

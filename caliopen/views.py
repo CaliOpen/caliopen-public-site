@@ -23,8 +23,19 @@ def contact(request):
         'page_author': 'Gandi'
     }
 
+
 @view_config(route_name='features', renderer='templates/layout/features.pt')
 def features(request):
+    return {
+        'project': 'caliopen',
+        'page_description': 'CaliOpen, be safe.',
+        'page_title': 'CaliOpen, be safe.',
+        'page_author': 'Gandi'
+    }
+
+
+@view_config(route_name='tour', renderer='templates/layout/tour.pt')
+def tour(request):
     return {
         'project': 'caliopen',
         'page_description': 'CaliOpen, be safe.',
