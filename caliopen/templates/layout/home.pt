@@ -4,7 +4,7 @@
       <article class="column column-1">
         <h2>The best way to discuss with your contacts,<br/>while preserving your privacy.</h2>
         <button>Try the demo</button>
-      </article>    
+      </article>
       <article class="column column-3" id="video">
         <h3>Watch the CaliOpen video</h3>
         <a href="/" class="logo">camera</a>

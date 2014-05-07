@@ -1,0 +1,156 @@
+main {
+  text-align: center;
+  background-color: #e4e4e4;
+}
+
+.logo {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  a {
+    &:link, &:visited {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 400;
+    }
+    &:link, &:visited {
+    }
+  }
+}
+
+header {
+  position: relative;
+  min-height: 60px;
+  background-color: #333;
+  h1 {
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    &:first-child {
+      margin-left: -576px;
+    }
+    a {
+      background-image: url('/static/images/logo_caliopen_header.png');
+      width: 191px;
+      height: 38px;
+    }
+  }
+}
+
+nav {
+  &#navigation-main {
+    width: 1200px;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    margin-left: -600px;
+    text-align: right;
+    ul {
+      margin-right: 136px;
+      li {
+        display: inline-block;
+        a {
+          &:hover, &:active {
+            background-color: #666;
+          }
+          &.active {
+            background-color: #33ccff;
+          }
+        }
+        &:last-child {
+          margin-right: 14px;
+        }
+      }
+      .button {
+        margin-right: 12px;
+        padding: 6px 12px;
+        .border-radius(8px);
+      }
+    }
+  }
+}
+
+footer {
+  padding: 50px 56px;
+  min-height: 134px;
+  #support-by-gandi {
+    display: inline-block;
+    width: 492px;
+    margin: 0;
+    min-height: 80px;
+    vertical-align: top;
+    line-height: 2.1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    a {
+      display: inline-block;
+      background-image: url('/static/images/footer_logo_gandi.png');
+      width: 114px;
+      height: 31px;
+      vertical-align: middle;
+      margin: -4px 0 0 8px;
+    }
+  }
+  .columns {
+    width: 1088px;
+    margin: 0 auto;
+    ul {
+      font-size: 0.9rem;
+      padding-top: 7px;
+      vertical-align: top;
+      &.footer-links {
+        display: inline-block;
+        width: 171px;
+        margin: 0;
+      }
+      &:last-of-type {
+        width: 343px;
+      }
+      li {
+        line-height: 1.4rem;
+        &:first-child {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 0.75rem;
+        }
+        a {
+          &:link, &:visited {
+            color: #a7a7a7;
+          }
+          &:hover, &:active {
+            color: #fff;
+          }
+        }
+      }
+    }
+    #twitter, #facebook {
+      vertical-align: top;
+      width: 32px;
+      height: 32px;
+    }
+    #twitter {
+      background-image: url('/static/images/footer_twitter.png');
+      margin-right: 18px;
+      &:hover {
+        background-image: url('/static/images/footer_twitter_hover.png');
+      }
+    }
+    #facebook {
+      background-image: url('/static/images/footer_facebook.png');
+      &:hover {
+        background-image: url('/static/images/footer_facebook_hover.png');
+      }
+    }
+    #copyright {
+      margin-top: 46px;
+      letter-spacing: normal;
+      font-size: 0.9rem;
+    }
+  }
+}
