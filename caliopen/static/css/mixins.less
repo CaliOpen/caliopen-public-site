@@ -24,10 +24,10 @@
   font-size: 1.2em;
 }
 
-.illustration(@width, @height, @background, @border-color, @radius:3px) {
+.illustration(@width, @height, @background, @border-color, @radius:3px, @border-size:8px) {
   display: block;
   .size(@width, @height);
   background: @background;
-  border: 8px solid @border-color;
+  border: @border-size solid @border-color;
   .border-radius(@radius);
 }
