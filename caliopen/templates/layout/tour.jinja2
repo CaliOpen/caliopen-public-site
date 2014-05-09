@@ -1,5 +1,7 @@
-<html metal:use-macro="load: page.pt">
-  <main metal:fill-slot="content" id="tour-intro">
+{% extends "page.jinja2" %}
+
+{% block content %}
+  <main id="tour-intro">
     <div class="layout">
       <div>
         <article>
@@ -17,7 +19,10 @@
       </div>
     </div>
   </main>
-  <main metal:fill-slot="content2" id="tour-icons">
+{% endblock %}
+
+{% block content2 %}
+  <main id="tour-icons">
     <div class="layout">
       <div class="big-icons">
         <article id="centralization">
@@ -36,7 +41,10 @@
       </div>
     </div>
   </main>
-  <main metal:fill-slot="content3" id="tour-steps">
+{% endblock %}
+
+{% block content3 %}
+  <main id="tour-steps">
     <div class="layout">
       <article>
         <ul>
@@ -56,4 +64,4 @@
       </article>
     </div>
   </main>
-</html>
+{% endblock %}

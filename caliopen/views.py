@@ -7,7 +7,7 @@ page_title = 'CaliOpen, be safe.'
 page_author = 'Gandi'
 
 
-@view_config(route_name='home', renderer='templates/layout/home.pt')
+@view_config(route_name='home', renderer='templates/layout/home.jinja2')
 def home(request):
     return {
         'project': project,
@@ -17,7 +17,7 @@ def home(request):
     }
 
 
-@view_config(route_name='contact', renderer='templates/layout/contact.pt')
+@view_config(route_name='contact', renderer='templates/layout/contact.jinja2')
 def contact(request):
     return {
         'project': project,
@@ -27,7 +27,7 @@ def contact(request):
     }
 
 
-@view_config(route_name='features', renderer='templates/layout/features.pt')
+@view_config(route_name='features', renderer='templates/layout/features.jinja2')
 def features(request):
     return {
         'project': project,
@@ -37,7 +37,7 @@ def features(request):
     }
 
 
-@view_config(route_name='about', renderer='templates/layout/about.pt')
+@view_config(route_name='about', renderer='templates/layout/about.jinja2')
 def about(request):
     return {
         'project': project,
@@ -47,7 +47,7 @@ def about(request):
     }
 
 
-@view_config(route_name='tour', renderer='templates/layout/tour.pt')
+@view_config(route_name='tour', renderer='templates/layout/tour.jinja2')
 def tour(request):
     return {
         'project': 'caliopen',

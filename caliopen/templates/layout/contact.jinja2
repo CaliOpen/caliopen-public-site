@@ -1,5 +1,7 @@
-<html metal:use-macro="load: page.pt">
-  <main metal:fill-slot="content" id="contact-text">
+{% extends "page.jinja2" %}
+
+{% block content %}
+  <main id="contact-text">
     <div class="layout">
       <div>
         <div class="content">
@@ -9,8 +11,10 @@
         </div>
       </div>
   </main>
+{% endblock %}
 
-  <main metal:fill-slot="content2" id="contact-icons">
+{% block content2 %}
+  <main id="contact-icons">
     <div class="layout">
       <div class="big-icons">
         <article id="github">
@@ -30,4 +34,4 @@
       </div>
     </div>
   </main>
-</html>
+{% endblock %}

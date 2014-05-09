@@ -1,5 +1,7 @@
-<html metal:use-macro="load: page.pt">
-  <main metal:fill-slot="content" id="home-try">
+{% extends "page.jinja2" %}
+
+{% block content %}
+  <main id="home-try">
     <div class="layout">
       <div>
         <article>
@@ -16,8 +18,10 @@
       </div>
     </div>
   </main>
+{% endblock %}
 
-  <main metal:fill-slot="content2" id="home-icons">
+{% block content2 %}
+  <main id="home-icons">
     <div class="layout">
       <div class="big-icons">
         <article id="video">
@@ -40,5 +44,4 @@
       </div>
     </div>
   </main>
-
-</html>
+{% endblock %}
