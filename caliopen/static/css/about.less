@@ -33,8 +33,8 @@ main {
 
   div {
     div.content {
-      .make-md-column(8);
-      .make-md-column-offset(2);
+      .make-md-column(10);
+      .make-md-column-offset(1);
 
       h2 {
         text-align: center;
@@ -43,13 +43,18 @@ main {
   }
 
   ul {
-    margin: 0;
     padding: 0;
-    color: #01455C;
-
-    margin: 30px 0;
-
+    margin: 40px 0;
+    .make-row();
     ol {
+      .make-md-column(4);
+      &:first-child {
+        .make-md-column-offset(2);
+      }
+      p {
+        padding: 12px 20px;
+        color: #333;
+      }
       p:first-child {
         .center-block();
         .size(75px, 75px);
@@ -62,15 +67,51 @@ main {
         margin-bottom: 25px;
       }
     }
+  }
+}
 
-    ol:first-child {
-      .make-md-column(3);
-      .make-md-column-offset(2);
-    }
-
-    ol:last-child {
-      .make-md-column(3);
+#about-items {
+  div {
+    div.content {
+      .make-md-column(10);
       .make-md-column-offset(1);
+    }
+  }
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      background-repeat: no-repeat;
+      background-position: left 20px;
+      margin: 60px 0;
+      min-height: 184px;
+
+      &:nth-child(odd) {
+        padding-left: 184px;
+      }
+      &:nth-child(even) {
+        background-position: right 20px;
+        padding-right: 184px;
+      }
+      &#open {
+        background-image: url('/static/images/about_open.png');
+      }
+      &#certificate {
+        background-image: url('/static/images/about_certificate.png');
+      }
+      &#interactive {
+        background-image: url('/static/images/about_interactions.png');
+      }
+      &#new {
+        background-image: url('/static/images/about_new.png');
+      }
+      &#level {
+        background-image: url('/static/images/about_niveau.png');
+      }
+      p {
+        margin-bottom: 20px;
+      }
     }
   }
 }

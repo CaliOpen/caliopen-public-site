@@ -35,9 +35,31 @@
     <div class="layout">
       <div>
         <div class="content">
-          <h2>Aujourd'hui, nous avons besoin d'aide.</h2>
-          <p>Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.</p>
-          <p>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter.</p>
+          <ul>
+            <li id="open">
+              <h3>Title 1</h3>
+              <p>Nous devons créer un logiciel libre, que n'importe quel administrateur système puisse installer aussi facilement qu'un CMS.<br/>Nous devons faire en sorte que chaque instance de notre outil puisse dialoguer avec les autres, de façon sécurisée. Et nous devons, en même temps, rester ouverts aux protocoles standards, pour ne pas limiter les contacts de nos utilisateurs aux seuls autres participants à notre réseau de services.</p>
+              <p><strong>Nous devons créer plus qu'un outil : un écosystème.</strong></p>
+            </li>
+            <li id="certificate">
+              <h3>Title 2</h3>
+              <p>Nous avons imaginé une association, qui donnera un label aux services qui le demanderont.<br/>Ce label, couplé à un certificat de chiffrement, permettra les échanges privés à l'intérieur de notre écosystème tout en garantissant à l'utilisateur final le respect d'une charte interdisant toute utilisation de ses données privées à des fins commerciales.</p>
+            </li>
+            <li id="level">
+              <h3>Title 3</h3>
+              <p>Notre interface utilisateur affiche à chaque instant le niveau de confidentialité des échanges affichés, en tenant compte non seulement des moyens de protection de l'utilisateur, mais aussi de ceux de ses correspondants et de la chaîne de serveurs transitaires.</p>
+              <p>En connaissant le niveau global de confidentialité de ses contacts, un utilisateur peut décider d'accorder plus de confiance à tel ou untel, privilégiant ceux qui affichent un haut niveau de sécurité, et poussant ainsi ses autres correspondants à utiliser eux aussi les outils de chiffrement mis à leur disposition.<br/>De même, l'utilisateur doit pouvoir choisir de n'afficher que ses échanges les moins importants lorsqu'il utilise un terminal peu sécurisé (et qui ne lui permet pas d'offrir à ses correspondants le degré de confidentialité qu'ils attendent de lui), sauf à voir son propre niveau baisser et risquer d'être considéré comme un contact "à risque".</p>
+            </li>
+            <li id="interactive">
+              <h3>Title 4</h3>
+              <p>Ainsi, par le jeu des interactions sociales, nous croyons possible de créer une motivation suffisamment forte pour que les utilisateurs de notre solution prennent l'habitude de sécuriser toujours d'avantage leurs communications et ainsi, pourquoi pas, de pousser y compris les géants du Web à modifier leur approche de la vie privée de leurs propres utilisateurs.</p>
+              <p>Et la longue histoire du logiciel libre nous l'a appris à la dure : il ne suffit pas de proposer un outil équivalent à ce qui existe déjà. La grande majorité des utilisateurs n'a pas le courage, ou l'envie, de changer d'adresse email, même pour protéger sa vie privée.</p>
+            </li>
+            <li id="new">
+              <h3>Title 5</h3>
+              <p>Nous avons la chance, à la différence des opérateurs déjà présents, de partir d'une feuille blanche. Nous n'avons pas à craindre de perdre nos utilisateurs si nous leur proposons une interface radicalement différente, plus adaptée au monde moderne, où nos échanges privés ne sont pas restreints au courrier électronique mais passent par le SMS, l'IRC, les messages privés de Twitter, WebRTC...</p>
+            </li>
+          </ul>
         </div>
       </div>
   </main>
