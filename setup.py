@@ -11,6 +11,7 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
 requires = [
     'pyramid',
     'pyramid_jinja2',
+    'babel',
     'pyramid_debugtoolbar',
     'waitress',
     ]
