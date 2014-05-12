@@ -23,7 +23,8 @@ def contact(request):
         'project': project,
         'page_description': page_description,
         'page_title': page_title,
-        'page_author': page_author
+        'page_author': page_author,
+        'active_nav': 'contact'
     }
 
 
@@ -33,7 +34,8 @@ def features(request):
         'project': project,
         'page_description': page_description,
         'page_title': page_title,
-        'page_author': page_author
+        'page_author': page_author,
+        'active_nav': 'features'
     }
 
 
@@ -43,7 +45,8 @@ def about(request):
         'project': project,
         'page_description': page_description,
         'page_title': page_title,
-        'page_author': page_author
+        'page_author': page_author,
+        'active_nav': 'about'
     }
 
 
@@ -53,5 +56,6 @@ def tour(request):
         'project': 'caliopen',
         'page_description': 'CaliOpen, be safe.',
         'page_title': 'CaliOpen, be safe.',
-        'page_author': 'Gandi'
+        'page_author': 'Gandi',
+        'active_nav': 'take_a_tour'
     }
