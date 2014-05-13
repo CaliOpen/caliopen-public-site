@@ -9,7 +9,7 @@
   <div class="layout">
     <div>
       <div class="title">
-        <h1><a href="{{'home'|route_url}}" title="Caliopen">Caliopen</a></h1>
+        <h1><a href="{{'home'|route_path}}" title="Caliopen">Caliopen</a></h1>
       </div>
 
       <div class="nav">
@@ -19,28 +19,28 @@
               {% if active_nav == 'take_a_tour' %}
                 <span class="button">{{ _('Take a tour') }}</span>
               {% else %}
-                <a href="{{'tour'|route_url}}" class="button">{{ _('Take a tour') }}</a>
+                <a href="{{'tour'|route_path}}" class="button">{{ _('Take a tour') }}</a>
               {% endif %}
             </li>
             <li id="navigation-main-about">
               {% if active_nav == 'about' %}
                 <span class="button">{{ _('About') }}</span>
               {% else %}
-                <a href="{{'about'|route_url}}" class="button">{{ _('About') }}</a>
+                <a href="{{'about'|route_path}}" class="button">{{ _('About') }}</a>
               {% endif %}
             </li>
             <li id="navigation-main-features">
               {% if active_nav == 'features' %}
                 <span class="button">{{ _('Features') }}</span>
               {% else %}
-                <a href="{{'features'|route_url}}" class="button">{{ _('Features') }}</a>
+                <a href="{{'features'|route_path}}" class="button">{{ _('Features') }}</a>
               {% endif %}
             </li>
             <li id="navigation-main-contact-us">
               {% if active_nav == 'contact' %}
                 <span class="button">{{ _('Contact us') }}</span>
               {% else %}
-                <a href="{{'contact'|route_url}}" class="button">{{ _('Contact us') }}</a>
+                <a href="{{'contact'|route_path}}" class="button">{{ _('Contact us') }}</a>
               {% endif %}
             </li>
           </ul>
@@ -63,7 +63,7 @@
         <div>
           <ul class="footer-links column">
             <li id="footer-link-product" class="list-title">{{ _('Product') }}</li>
-            <li id="footer-link-origins"><a href="{{'about'|route_url}}">{{ _('The origins') }}</a></li>
+            <li id="footer-link-origins"><a href="{{'about'|route_path}}">{{ _('The origins') }}</a></li>
             <li id="footer-link-download"><a href="https://github.com/CaliOpen/CaliOpen/archive/master.zip">{{ _('Download') }}</a></li>
           </ul>
         </div>
