@@ -57,4 +57,5 @@ coverage.xml
 docs/_build/
 
 # Bower files
-caliopen/static/vendors
+node_modules/
+caliopen_website/static/vendors

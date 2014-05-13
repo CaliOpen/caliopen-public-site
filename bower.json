@@ -11,7 +11,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "caliopen/static/vendors",
+    "caliopen_website/static/vendors",
     "test",
     "tests"
   ],

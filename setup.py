@@ -2,42 +2,40 @@ import os
 
 from setuptools import setup, find_packages
 
+name = 'caliopen_website'
 here = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(here, 'README.md')) as f:
+with open(os.path.join(here, 'README.rst')) as f:
     README = f.read()
-with open(os.path.join(here, 'CHANGES.txt')) as f:
+with open(os.path.join(here, 'CHANGES.rst')) as f:
     CHANGES = f.read()
 
 requires = [
     'pyramid',
     'pyramid_jinja2',
     'babel',
-    'pyramid_debugtoolbar',
     'waitress',
     ]
 
-setup(name='caliopen',
+setup(name=name.replace('_', '-'),
       version='0.0',
-      description='caliopen',
+      description='caliopen project presentation',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
         "Programming Language :: Python",
         "Framework :: Pyramid",
         "Topic :: Internet :: WWW/HTTP",
-        "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
         ],
-      author='',
-      author_email='',
-      url='',
+      author='Caliopen Contributors',
+      author_email='laurent@caliopen.org',
+      url='https://www.caliopen.org',
       keywords='web pyramid pylons',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="caliopen",
       entry_points="""\
       [paste.app_factory]
-      main = caliopen:main
-      """,
+      main = %s:main
+      """ % name,
       )
