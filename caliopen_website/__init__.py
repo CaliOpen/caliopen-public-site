@@ -9,7 +9,7 @@ def main(global_config, **settings):
 
     views.use_less = settings['caliopen_ws.css'] == 'less'
 
-    config.add_static_view('static', 'static', cache_max_age=3600)
+    config.add_static_view('assets', 'assets', cache_max_age=3600)
     config.add_translation_dirs('locale/')
     config.add_route('home', '/')
     config.add_route('contact', '/contact')
