@@ -89,20 +89,17 @@ main {
 }
 
 #features-layout {
-  p:first-child {
-    .make-md-column(6);
+  article {
+    .make-md-column(10);
     .make-md-column-offset(1);
-    color: #01455C;
-    padding: 85px 0;
-  }
+    background: transparent url('/static/images/features_ux.png') right top no-repeat;
+    margin: 20px 0;
+    padding: 40px 0;
+    min-height: 200px;
 
-  p:last-child {
-    .make-md-column(4);
-    .make-md-column-offset(1);
-    padding: 65px 0;
-  }
-
-  span.illustration {
-    .illustration(250px, 180px, #6EB0C5, #01455C);
+    p {
+      color: #01455C;
+      margin-right: 340px;
+    }
   }
 }
