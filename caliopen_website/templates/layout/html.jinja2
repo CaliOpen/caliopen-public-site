@@ -12,7 +12,11 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="{{'caliopen_website:static/images/favicon.ico'|static_path}}" />
-    <link rel="stylesheet/less" type="text/css" href="{{'caliopen_website:static/css/styles.less'|static_path}}" />
+    {% if use_less %}
+        <link rel="stylesheet/less" type="text/css" href="{{'caliopen_website:static/css/styles.less'|static_path}}" />
+    {% else %}
+        <link rel="stylesheet" type="text/css" href="{{'caliopen_website:static/css/styles.css'|static_path}}" />
+    {% endif %}
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -28,7 +32,9 @@
 
     <script src="{{'caliopen_website:static/js/jquery-1.11.1.min.js'|static_path}}" type="text/javascript"></script>
     <script src="{{'caliopen_website:static/js/jquery.slides.min.js'|static_path}}" type="text/javascript"></script>
-    <script src="{{'caliopen_website:static/js/less-1.7.0.min.js'|static_path}}" type="text/javascript"></script>
+    {% if use_less %}
+        <script src="{{'caliopen_website:static/js/less-1.7.0.min.js'|static_path}}" type="text/javascript"></script>
+    {% endif %}
 
     {% block inlinescript %}{% endblock %}
 

@@ -1,10 +1,14 @@
 from pyramid.config import Configurator
+from . import views
 
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
     config = Configurator(settings=settings)
+
+    views.use_less = settings['caliopen_ws.css'] == 'less'
+
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.add_translation_dirs('locale/')
     config.add_route('home', '/')
