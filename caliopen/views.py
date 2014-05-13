@@ -53,9 +53,9 @@ def about(request):
 @view_config(route_name='tour', renderer='templates/layout/tour.jinja2')
 def tour(request):
     return {
-        'project': 'caliopen',
-        'page_description': 'CaliOpen, be safe.',
-        'page_title': 'CaliOpen, be safe.',
-        'page_author': 'Gandi',
+        'project': project,
+        'page_description': page_description,
+        'page_title': page_title,
+        'page_author': page_author,
         'active_nav': 'take_a_tour'
     }
