@@ -5,6 +5,7 @@ project = 'caliopen'
 page_description = 'CaliOpen, be safe.'
 page_title = 'CaliOpen, be safe.'
 page_author = 'Gandi'
+use_less = False
 
 
 @view_config(route_name='home', renderer='templates/layout/home.jinja2')
@@ -13,7 +14,8 @@ def home(request):
         'project': project,
         'page_description': page_description,
         'page_title': page_title,
-        'page_author': page_author
+        'page_author': page_author,
+        'use_less': use_less
     }
 
 
@@ -24,7 +26,8 @@ def contact(request):
         'page_description': page_description,
         'page_title': page_title,
         'page_author': page_author,
-        'active_nav': 'contact'
+        'active_nav': 'contact',
+        'use_less': use_less
     }
 
 
@@ -35,7 +38,8 @@ def features(request):
         'page_description': page_description,
         'page_title': page_title,
         'page_author': page_author,
-        'active_nav': 'features'
+        'active_nav': 'features',
+        'use_less': use_less
     }
 
 
@@ -46,7 +50,8 @@ def about(request):
         'page_description': page_description,
         'page_title': page_title,
         'page_author': page_author,
-        'active_nav': 'about'
+        'active_nav': 'about',
+        'use_less': use_less
     }
 
 
@@ -57,5 +62,6 @@ def tour(request):
         'page_description': page_description,
         'page_title': page_title,
         'page_author': page_author,
-        'active_nav': 'take_a_tour'
+        'active_nav': 'take_a_tour',
+        'use_less': use_less
     }
