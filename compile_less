@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# npm install -g less
+
+lessc caliopen_website/assets/css/styles.less > caliopen_website/assets/css/styles.css -x
