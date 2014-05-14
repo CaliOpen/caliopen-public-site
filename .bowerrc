@@ -1,4 +1,4 @@
 {
-  "directory": "caliopen/static/vendors",
+  "directory": "caliopen_website/assets/vendors",
   "json": "bower.json"
 }

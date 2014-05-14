@@ -53,4 +53,4 @@ docs/_build/
 
 # Bower files
 node_modules/
-caliopen_website/static/vendors
+caliopen_website/assets/vendors
