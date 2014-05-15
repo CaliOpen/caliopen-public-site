@@ -2,10 +2,31 @@ from pyramid.config import Configurator
 from . import views
 
 
+LANGUAGES = {
+        'en-CA': 'en',
+        'en-GB': 'en',
+        'en-US': 'en',
+        'en': 'en',
+        'fr-FR': 'fr',
+        'fr-BE': 'fr',
+        'fr': 'fr',
+        }
+
+
+def locale_negotiator(request):
+    """Locale negotiator base on the `Accept-Language` header"""
+    locale = 'en'
+    if request.accept_language:
+        locale = request.accept_language.best_match(LANGUAGES)
+        locale = LANGUAGES.get(locale, 'en')
+    return locale
+
+
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
-    config = Configurator(settings=settings)
+    config = Configurator(settings=settings,
+                          locale_negotiator=locale_negotiator)
 
     views.use_less = settings['caliopen_ws.css'] == 'less'
 
