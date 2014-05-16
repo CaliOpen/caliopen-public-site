@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: caliopen-website 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-05-16 15:48+0200\n"
-"PO-Revision-Date: 2014-05-16 16:38+0100\n"
+"PO-Revision-Date: 2014-05-16 17:06+0100\n"
 "Last-Translator: Vincent MINEAUD <vincent@gandi.net>\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -222,7 +222,7 @@ msgstr "Nous avons passé beaucoup de temps, avant même d' envisager les soluti
 
 #: caliopen_website/templates/layout/home.jinja2:8
 msgid "Le meilleur moyen de discutter avec vos contacts"
-msgstr "The best way to discuss with your contacts, while preserving your privacy."
+msgstr "The best way to discuss with your contacts,<br/>while preserving your privacy."
 
 #: caliopen_website/templates/layout/home.jinja2:16
 #: caliopen_website/templates/layout/tour.jinja2:14
