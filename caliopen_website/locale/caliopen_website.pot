@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caliopen-website 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-16 15:48+0200\n"
+"POT-Creation-Date: 2014-05-16 17:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,6 +175,14 @@ msgstr ""
 
 #: caliopen_website/templates/layout/contact.jinja2:25
 msgid "Envoyer un email"
+msgstr ""
+
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "contact@caliopen.org"
+msgstr ""
+
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "Contacter l'équipe CaliOpen"
 msgstr ""
 
 #: caliopen_website/templates/layout/contact.jinja2:26

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caliopen-website 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-05-16 15:48+0200\n"
-"PO-Revision-Date: 2014-05-16 17:06+0100\n"
+"POT-Creation-Date: 2014-05-16 17:12+0200\n"
+"PO-Revision-Date: 2014-05-16 17:14+0100\n"
 "Last-Translator: Vincent MINEAUD <vincent@gandi.net>\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -126,6 +126,14 @@ msgstr "octopus Github"
 #: caliopen_website/templates/layout/contact.jinja2:25
 msgid "Envoyer un email"
 msgstr "Send an email"
+
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "contact@caliopen.org"
+msgstr "contact@caliopen.org"
+
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "Contacter l'équipe CaliOpen"
+msgstr "Contact the CaliOpen team"
 
 #: caliopen_website/templates/layout/contact.jinja2:26
 msgid "enveloppe"
@@ -363,22 +371,4 @@ msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aven
 msgstr "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
 
 #~ msgid ""
-#~ "De nombreuses fonctionnalités avancées sont"
-#~ " mises à votre disposition au sein"
-#~ " de notre solution. Échangez simplement "
-#~ "et sereinement avec votre entourage, et"
-#~ " découvrez des possibilités multiples qui"
-#~ " sont le fruit d'une longue réflexion"
-#~ " et qui désormais vous faciliterons "
-#~ "la vie.\""
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Vous voulez nous communiquer votre avis"
-#~ " ? Envie de prendre part à "
-#~ "laventure ? Vous voulez participer à "
-#~ "la création d'un nouvel outil, qui "
-#~ "vise à changer radicalement la manière"
-#~ " d'échanger avec ses proches ? "
-#~ "Aidez-nous, rejoignez-nous."
 #~ msgstr ""
