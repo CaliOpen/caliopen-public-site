@@ -36,61 +36,58 @@
     <div class="layout">
       <ul>
         <li id="confidentiality">
-          <h3>{{ _('Niveaux de confidentialité') }}</h3>
-          <p>{{ _('Texte de "Niveaux de confidentialité"') }}</p>
+          <h3>{{ _('Niveau de confidentialité') }}</h3>
+          <p>{{ _('Calculé pour chaque élément de l\'interface (compte, message, contact...), ce niveau est à la fois un indicateur de confiance et une incitation à mieux se protéger.')|safe }}</p>
         </li>
-
-        <li id="intuitive-search">
-          <h3>{{ _('Recherche intuitive') }}</h3>
-          <p>{{ _('Texte de "Recherche intuitive"') }}</p>
-        </li>
-      </ul>
-
-      <ul>
         <li id="importance">
-          <h3>{{ _('Niveaux d''mportance') }}</h3>
-          <p>{{ _('Texte de "Niveaux d''mportance"') }}</p>
-        </li>
-
-        <li id="devices-manager">
-          <h3>{{ _('Gestion des devices') }}</h3>
-          <p>{{ _('Texte de "Gestion des devices"') }}</p>
+          <h3>{{ _('Niveaux d\'importance') }}</h3>
+          <p>{{ _('Principal paramètre de tri de la timeline, le calcul de l\'importance dépend autant des choix de l\'utilisateur que de données objectives. Un spam aura, par exemple, un niveau d\'importance minimal.')|safe }}</p>
         </li>
       </ul>
 
       <ul>
         <li id="smart-appointment">
           <h3>{{ _('Rendez-vous intelligents') }}</h3>
-          <p>{{ _('Texte de "Rendez-vous intelligents"') }}</p>
+          <p>{{ _('L\'application propose elle-même les dates de rendez-vous en fonction des disponibilités dans l\'agenda des contacts invités, les invitations et les confirmations sont traitées automatiquement.')|safe }}</p>
+        </li>
+        <li id="auto-label">
+          <h3>{{ _('Labels automatiques') }}</h3>
+          <p>{{ _('En fonction des choix de l\'administrateur du système et des usages de l\'utilisateur, Caliopen assigne automatiquement des labels ("boulot", "banque", "famille"...) aux éléments de la timeline.')|safe }}</p>
+        </li>
+      </ul>
+
+      <ul>
+      <li id="custom-views">
+          <h3>{{ _('Vues personnalisées') }}</h3>
+          <p>{{ _('Tout résultat de recherche, tout filtre défini par l\'utilisateur, toute fonction de tri peuvent être sauvegardés et transformés en "Vues" pouvant être réutilisées, ou assignées à un terminal particulier.')|safe }}</p>
+        </li>
+        <li id="intuitive-search">
+          <h3>{{ _('Recherche intuitive') }}</h3>
+          <p>{{ _('Toute recherche peut inclure des fonctionnalités de filtrage et de tri. Elle s\'effectue dans l\'intégralité des données non chiffrées de l\'utilisateur (fichiers compris).')|safe }}</p>
+        </li>
+      </ul>
+
+      <ul>
+        <li id="devices-manager">
+          <h3>{{ _('Gestion des terminaux') }}</h3>
+          <p>{{ _('L\'utilisateur gère la liste des terminaux qu\'il utilise pour accéder à son compte. En fonction de leur niveau de confidentialité, leur usage et leurs droits d\'accès ne sont pas toujours les mêmes.')|safe }}</p>
         </li>
 
         <li id="degraded-mode">
           <h3>{{ _('Mode dégradé') }}</h3>
-          <p>{{ _('Texte de "Mode dégradé"') }}</p>
+          <p>{{ _('Lorsque le système détecte un risque d\'interception (usage d\'un réseau wifi ouvert, utilisation d\'un terminal inconnu...), le compte n\'est accessible qu\'en mode dégradé et n\'affichera rien au dessus d\'un niveau de confidentialité minimal.')|safe }}</p>
         </li>
       </ul>
 
       <ul>
-         <li id="auto-label">
-          <h3>{{ _('Labels automatiques') }}</h3>
-          <p>{{ _('Texte de "Labels automatiques"') }}</p>
-        </li>
-
         <li id="advanced-settings">
           <h3>{{ _('Paramétrages avancés') }}</h3>
-          <p>{{ _('Texte de "Paramétrages avancés"') }}</p>
-        </li>
-      </ul>
-
-      <ul>
-        <li id="custom-views">
-          <h3>{{ _('Vue personnalisées') }}</h3>
-          <p>{{ _('Texte de "Vue personnalisées"') }}</p>
+          <p>{{ _('L\'interface est personnalisable, le niveau minimal d\'importance (en dessous duquel un courrier devient indésirable) est géré de façon dynamique, les contacts peuvent être temporairement ignorés, le partage des fichiers automatisé...')|safe }}</p>
         </li>
 
         <li id="centralization">
           <h3>{{ _('Centralisation des messages') }}</h3>
-          <p>{{ _('Texte de "Centralisation des messages"') }}</p>
+          <p>{{ _('La confidentialité concerne la totalité de la correspondance en ligne. Caliopen réunit dans une unique interface les messages privés applicatifs (Twitter, Facebook), le courrier électronique, la messagerie en direct, les SMS....')|safe }}</p>
         </li>
       </ul>
     </div>
@@ -101,7 +98,7 @@
   <main id="features-layout">
     <div class="layout">
       <article>
-        <p>{{ _('Nous avons passé beaucoup de temps, avant même d''envisager les solutions techniques') }}</p>
+        <p>{{ _('Nous avons passé beaucoup de temps, avant même d\' envisager les solutions techniques, à travailler sur l\'ergonomie et le design d\'une interface utilisateur qui puisse intégrer tous nos échanges privés. C\'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c\'est à nous de créer un outil attractif, plutôt que d\'attendre un effort illusoire des utilisateurs.')|safe }}</p>
       </article>
     </div>
   </main>

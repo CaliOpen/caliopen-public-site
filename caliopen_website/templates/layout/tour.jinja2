@@ -5,11 +5,11 @@
     <div class="layout">
       <div>
         <article>
-          <h2>{{ _('And your privacy becomes completely private...') }}</h2>
+          <h2>{{ _('Et votre vie privée devient complétement privée...') }}</h2>
           <ul>
-            <li>{{ _('Centralize all of your private communications') }}</li>
-            <li>{{ _('Securely share confidential information') }}</li>
-            <li>{{ _('Enjoy an intuitive interface') }}</li>
+            <li>{{ _('Centraliser toutes vos communications privées') }}</li>
+            <li>{{ _('Partager en toute sécurité des informations confidentielles') }}</li>
+            <li>{{ _('Profiter d\'une interface intuitive') }}</li>
           </ul>
           <a href="{{'features'|route_path}}" class="button">{{ _('Essayer la démo') }}</a>
         </article>
@@ -26,17 +26,16 @@
     <div class="layout">
       <div class="big-icons">
         <article id="centralization">
-          <img src="{{'caliopen_website:assets/images/tour_centralize.png'|static_path}}" alt="{{ _('centralize') }}"/>
-          <p>{{ _('An application for centralize all your private communications,
-  at any time, everywhere') }}</p>
+          <img src="{{'caliopen_website:assets/images/tour_centralize.png'|static_path}}" alt="{{ _('centraliser') }}"/>
+          <p>{{ _('Une application pour centraliser toutes vos communications privées, à tout moment, partout')|safe }}</p>
         </article>
         <article id="confidentiality">
-          <img src="{{'caliopen_website:assets/images/tour_confidentiality.png'|static_path}}" alt="{{ _('confidentiality') }}"/>
-          <p>{{ _('A tool for control and verify the confidentiality level of your contacts, messages, files, devices and whatever') }}</p>
+          <img src="{{'caliopen_website:assets/images/tour_confidentiality.png'|static_path}}" alt="{{ _('confidentialité') }}"/>
+          <p>{{ _('Un outil pour contrôler et vérifier le niveau de confidentialité de vos contacts, messages, fichiers, périphériques ou autre')|safe }}</p>
         </article>
         <article id="ux">
-          <img src="{{'caliopen_website:assets/images/tour_ux.png'|static_path}}" alt="{{ _('user experience') }}"/>
-          <p>{{ _('A modern user experience for a better feeling with the application, everything is natural and design thinked') }}</p>
+          <img src="{{'caliopen_website:assets/images/tour_ux.png'|static_path}}" alt="{{ _('expérience utilisateur') }}"/>
+          <p>{{ _('Une expérience utilisateur moderne pour une meilleure sensation, tout est naturel avec un design bien pensé')|safe }}</p>
         </article>
       </div>
     </div>
@@ -49,16 +48,16 @@
       <article>
         <ul>
           <li id="about">
-            <h3>{{ _('About') }}</h3>
-            <p>{{ _('Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille.') }}<a href="{{'about'|route_path}}">{{ _('Read more') }}</a></p>
+            <h3>{{ _('A propos') }}</h3>
+            <p>{{ _('Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée.')|safe }}<a href="{{'about'|route_path}}">{{ _('Lire') }}</a></p>
           </li>
           <li id="features">
-            <h3>{{ _('Features') }}</h3>
-            <p>{{ _('De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution.') }}<a href="{{'features'|route_path}}">{{ _('Read more') }}</a></p>
+            <h3>{{ _('Fonctionnalités') }}</h3>
+            <p>{{ _('De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d\'une longue réflexion et qui désormais vous faciliterons la vie.')|safe }}<a href="{{'features'|route_path}}">{{ _('Lire') }}</a></p>
           </li>
           <li id="contact">
             <h3>{{ _('Contact') }}</h3>
-            <p>{{ _('Vous voulez nous communiquer votre avis ? Envie de prendre part à l''aventure ?') }}<a href="{{'contact'|route_path}}">{{ _('Read more') }}</a></p>
+            <p>{{ _('Vous voulez nous communiquer votre avis ? Envie de prendre part à l\'aventure ? Vous voulez participer à la création d\'un nouvel outil, qui vise à changer radicalement la manière d\'échanger avec ses proches ? Aidez-nous, rejoignez-nous.')|safe }}<a href="{{'contact'|route_path}}">{{ _('Lire') }}</a></p>
           </li>
         </ul>
       </article>

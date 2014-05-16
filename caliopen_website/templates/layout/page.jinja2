@@ -17,30 +17,30 @@
           <ul>
             <li id="navigation-main-take-a-tour">
               {% if active_nav == 'take_a_tour' %}
-                <span class="button">{{ _('Take a tour') }}</span>
+                <span class="button">{{ _('Faire un tour') }}</span>
               {% else %}
-                <a href="{{'tour'|route_path}}" class="button">{{ _('Take a tour') }}</a>
+                <a href="{{'tour'|route_path}}" class="button">{{ _('Faire un tour') }}</a>
               {% endif %}
             </li>
             <li id="navigation-main-about">
               {% if active_nav == 'about' %}
-                <span class="button">{{ _('About') }}</span>
+                <span class="button">{{ _('A propos') }}</span>
               {% else %}
-                <a href="{{'about'|route_path}}" class="button">{{ _('About') }}</a>
+                <a href="{{'about'|route_path}}" class="button">{{ _('A propos') }}</a>
               {% endif %}
             </li>
             <li id="navigation-main-features">
               {% if active_nav == 'features' %}
-                <span class="button">{{ _('Features') }}</span>
+                <span class="button">{{ _('Fonctionnalités') }}</span>
               {% else %}
-                <a href="{{'features'|route_path}}" class="button">{{ _('Features') }}</a>
+                <a href="{{'features'|route_path}}" class="button">{{ _('Fonctionnalités') }}</a>
               {% endif %}
             </li>
             <li id="navigation-main-contact-us">
               {% if active_nav == 'contact' %}
-                <span class="button">{{ _('Contact us') }}</span>
+                <span class="button">{{ _('Nous contacter') }}</span>
               {% else %}
-                <a href="{{'contact'|route_path}}" class="button">{{ _('Contact us') }}</a>
+                <a href="{{'contact'|route_path}}" class="button">{{ _('Nous contacter') }}</a>
               {% endif %}
             </li>
           </ul>
@@ -55,24 +55,24 @@
   <div class="layout">
     <div>
       <div class="gandi">
-        <p id="support-by-gandi" class="column">{{ _('A project supported by') }}
+        <p id="support-by-gandi" class="column">{{ _('Un projet supporté par') }}
         <a href="http://www.gandi.net" title="Gandi.net" class="logo">Gandi.net</a></p>
       </div>
 
       <div class="sitemap">
         <div>
           <ul class="footer-links column">
-            <li id="footer-link-product" class="list-title">{{ _('Product') }}</li>
-            <li id="footer-link-origins"><a href="{{'about'|route_path}}">{{ _('The origins') }}</a></li>
-            <li id="footer-link-download"><a href="https://github.com/CaliOpen/CaliOpen/archive/master.zip">{{ _('Download') }}</a></li>
+            <li id="footer-link-product" class="list-title">{{ _('Produit') }}</li>
+            <li id="footer-link-origins"><a href="{{'about'|route_path}}">{{ _('Les origines') }}</a></li>
+            <li id="footer-link-download"><a href="https://github.com/CaliOpen/CaliOpen/archive/master.zip">{{ _('Téléchargement') }}</a></li>
           </ul>
         </div>
 
         <div>
           <ul class="footer-links column">
-            <li id="footer-link-community" class="list-title">{{ _('Community') }}</li>
-            <li id="footer-link-fork-us"><a href="https://github.com/CaliOpen/CaliOpen">{{ _('Fork us on GitHub') }}</a></li>
-            <li id="footer-link-blog"><a href="/">{{ _('Visit our blog') }}</a></li>
+            <li id="footer-link-community" class="list-title">{{ _('Communauté') }}</li>
+            <li id="footer-link-fork-us"><a href="https://github.com/CaliOpen/CaliOpen">{{ _('Forker nous sur GitHub') }}</a></li>
+            <li id="footer-link-blog"><a href="/">{{ _('Visiter notre blog') }}</a></li>
           </ul>
         </div>
       </div>

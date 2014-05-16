@@ -6,9 +6,7 @@
       <div>
         <div class="content">
           <h2>{{ _('Les grandes aventures commencent toujours par un premier pas...') }}</h2>
-          <p>{{ _('Un jour, Jérémie Zimmermann est passé par moi, pendant ses vacances, en pleine affaire PRISM.') }}</p>
-          <p>{{ _('Nous avons parlé, ce jour là, d''un ancien projet de service de courrier électronique') }}</p>
-          <p>{{ _('Depuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur.') }}</p>
+          <p>{{ _('Un jour, Jérémie Zimmermann est passé chez moi, pendant ses vacances, en pleine affaire PRISM.\n\nNous avons parlé, ce jour là, d\'un ancien projet de service de courrier électronique, respectueux de la vie privée des utilisateurs, mais qui - face à l\'ogre Google - n\'a jamais vu le jour. Jérémie m\'a alors poussé à relancer ce projet, expliquant que désormais, grâce à Edward Snowden, une partie du public était sans doute prête à quitter GMail et les autres pour quelque chose de moins centralisé, de moins propriétaire, et qui ne soit pas basé sur l\'exploitation du contenu de nos échanges privés.\n\nDepuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur.')|safe }}</p>
         </div>
       </div>
   </main>
@@ -26,11 +24,11 @@
       <ul>
         <ol>
           <p>1</p>
-          <p>{{ _('La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé.') }}</p>
+          <p>{{ _('La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé.')|safe }}</p>
         </ol>
         <ol>
           <p>2</p>
-          <p>{{ _('Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier.') }}</p>
+          <p>{{ _('Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier.')|safe }}</p>
         </ol>
       </ul>
   </main>
@@ -43,27 +41,25 @@
         <div class="content">
           <ul>
             <li id="open">
-              <h3>{{ _('Title 1') }}</h3>
-              <p>{{ _('Nous devons créer un logiciel libre, que n''importe quel administrateur système puisse installer aussi facilement qu''un CMS.') }}</p>
-              <p><strong>{{ _('Nous devons créer plus qu''un outil : un écosystème.') }}</strong></p>
+              <h3>{{ _('Un outils ouvert') }}</h3>
+              <p>{{ _('Nous devons créer un logiciel libre, que n\'importe quel administrateur système puisse installer aussi facilement qu\'un CMS.\n\nNous devons faire en sorte que chaque instance de notre outil puisse dialoguer avec les autres, de façon sécurisée. Et nous devons, en même temps, rester ouverts aux protocoles standards, pour ne pas limiter les contacts de nos utilisateurs aux seuls autres participants à notre réseau de services.')|safe }}</p>
+              <p><strong>{{ _('Nous devons créer plus qu\'un outil : un écosystème.')|safe }}</strong></p>
             </li>
             <li id="certificate">
-              <h3>{{ _('Title 2') }}</h3>
-              <p>{{ _('Nous avons imaginé une association, qui donnera un label aux services qui le demanderont.') }}</p>
+              <h3>{{ _('Un label Caliopen') }}</h3>
+              <p>{{ _('Nous avons imaginé une association, qui donnera un label aux services qui le demanderont.\n\nCe label, couplé à un certificat de chiffrement, permettra les échanges privés à l\'intérieur de notre écosystème tout en garantissant à l\'utilisateur final le respect d\'une charte interdisant toute utilisation de ses données privées à des fins commerciales.')|safe }}</p>
             </li>
             <li id="level">
-              <h3>{{ _('Title 3') }}</h3>
-              <p>{{ _('Notre interface utilisateur affiche à chaque instant le niveau de confidentialité des échanges affichés') }}</p>
-              <p>{{ _('En connaissant le niveau global de confidentialité de ses contacts, un utilisateur peut décider d''accorder plus de confiance à tel ou untel') }}</p>
+              <h3>{{ _('Niveau de confidentialité') }}</h3>
+              <p>{{ _('Notre interface utilisateur affiche à chaque instant le niveau de confidentialité des échanges affichés en tenant compte non seulement des moyens de protection de l\'utilisateur, mais aussi de ceux de ses correspondants et de la chaîne de serveurs transitaires.\n\nEn connaissant le niveau global de confidentialité de ses contacts, un utilisateur peut décider d\'accorder plus de confiance à tel ou untel, privilégiant ceux qui affichent un haut niveau de sécurité, et poussant ainsi ses autres correspondants à utiliser eux aussi les outils de chiffrement mis à leur disposition.\n\nDe même, l\'utilisateur doit pouvoir choisir de n\'afficher que ses échanges les moins importants lorsqu\'il utilise un terminal peu sécurisé (et qui ne lui permet pas d\'offrir à ses correspondants le degré de confidentialité qu\'ils attendent de lui), sauf à voir son propre niveau baisser et risquer d\'être considéré comme un contact "à risque".')|safe }}</p>
             </li>
             <li id="interactive">
-              <h3>{{ _('Title 4') }}</h3>
-              <p>{{ _('Ainsi, par le jeu des interactions sociales, nous croyons possible de créer une motivation suffisamment forte pour que les utilisateurs de notre solution') }}</p>
-              <p>{{ _('Et la longue histoire du logiciel libre nous l''a appris à la dure : il ne suffit pas de proposer un outil équivalent à ce qui existe déjà.') }}</p>
+              <h3>{{ _('Changer les comportements') }}</h3>
+              <p>{{ _('Ainsi, par le jeu des interactions sociales, nous croyons possible de créer une motivation suffisamment forte pour que les utilisateurs de notre solution prennent l\'habitude de sécuriser toujours d\'avantage leurs communications et ainsi, pourquoi pas, de pousser y compris les géants du Web à modifier leur approche de la vie privée de leurs propres utilisateurs.\n\nEt la longue histoire du logiciel libre nous l\'a appris à la dure : il ne suffit pas de proposer un outil équivalent à ce qui existe déjà. La grande majorité des utilisateurs n\'a pas le courage, ou l\'envie, de changer d\'adresse email, même pour protéger sa vie privée.')|safe }}</p>
             </li>
             <li id="new">
-              <h3>{{ _('Title 5') }}</h3>
-              <p>{{ _('Nous avons la chance, à la différence des opérateurs déjà présents, de partir d''une feuille blanche.') }}</p>
+              <h3>{{ _('Un nouveau départ') }}</h3>
+              <p>{{ _('Nous avons la chance, à la différence des opérateurs déjà présents, de partir d\'une feuille blanche. Nous n\'avons pas à craindre de perdre nos utilisateurs si nous leur proposons une interface radicalement différente, plus adaptée au monde moderne, où nos échanges privés ne sont pas restreints au courrier électronique mais passent par le SMS, l\'IRC, les messages privés de Twitter, WebRTC...')|safe }}</p>
             </li>
           </ul>
         </div>
