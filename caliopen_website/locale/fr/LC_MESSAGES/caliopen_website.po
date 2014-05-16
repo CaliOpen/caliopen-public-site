@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: caliopen-website 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-05-16 17:12+0200\n"
-"PO-Revision-Date: 2014-05-16 17:13+0100\n"
+"PO-Revision-Date: 2014-05-16 17:31+0100\n"
 "Last-Translator: Vincent MINEAUD <vincent@gandi.net>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
@@ -350,7 +350,7 @@ msgstr "Une expérience utilisateur moderne pour une meilleure sensation, tout e
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 msgid "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
-msgstr "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
+msgstr "Pourquoi ce projet ? À quoi ça sert ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour échanger avec vos proches ou au travail ?"
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 #: caliopen_website/templates/layout/tour.jinja2:56
@@ -360,7 +360,7 @@ msgstr "Lire"
 
 #: caliopen_website/templates/layout/tour.jinja2:56
 msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
-msgstr "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
+msgstr "Les principales fonctionnalités de l'interface utilisateur de CaliOpen."
 
 #: caliopen_website/templates/layout/tour.jinja2:59
 msgid "Contact"

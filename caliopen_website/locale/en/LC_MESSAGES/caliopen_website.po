@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: caliopen-website 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-05-16 17:12+0200\n"
-"PO-Revision-Date: 2014-05-16 17:14+0100\n"
+"PO-Revision-Date: 2014-05-16 17:33+0100\n"
 "Last-Translator: Vincent MINEAUD <vincent@gandi.net>\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -330,7 +330,7 @@ msgstr "centralize"
 
 #: caliopen_website/templates/layout/tour.jinja2:30
 msgid "Une application pour centraliser toutes vos communications privées, à tout moment, partout"
-msgstr "An application for centralize all your private communications, at any time, everywhere"
+msgstr "One tool to rule all your private communications"
 
 #: caliopen_website/templates/layout/tour.jinja2:33
 msgid "confidentialité"
@@ -338,7 +338,7 @@ msgstr "confidentiality"
 
 #: caliopen_website/templates/layout/tour.jinja2:34
 msgid "Un outil pour contrôler et vérifier le niveau de confidentialité de vos contacts, messages, fichiers, périphériques ou autre"
-msgstr "A tool for control and verify the confidentiality level of your contacts, messages, files, devices and whatever"
+msgstr "You'll always know the confidentiality level of your messages, contacts, files, devices or whatever"
 
 #: caliopen_website/templates/layout/tour.jinja2:37
 msgid "expérience utilisateur"
@@ -350,7 +350,7 @@ msgstr "A modern user experience for a better feeling with the application, ever
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 msgid "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
-msgstr "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
+msgstr "Pourquoi ce projet ? À quoi ça sert ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour échanger avec vos proches ou au travail ?"
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 #: caliopen_website/templates/layout/tour.jinja2:56
@@ -360,7 +360,7 @@ msgstr "Read more"
 
 #: caliopen_website/templates/layout/tour.jinja2:56
 msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
-msgstr "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
+msgstr "Les principales fonctionnalités de l'interface utilisateur de CaliOpen."
 
 #: caliopen_website/templates/layout/tour.jinja2:59
 msgid "Contact"
