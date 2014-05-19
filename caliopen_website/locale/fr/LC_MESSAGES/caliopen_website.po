@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: caliopen-website 0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-05-16 17:12+0200\n"
-"PO-Revision-Date: 2014-05-16 17:31+0100\n"
+"PO-Revision-Date: 2014-05-19 16:46+0100\n"
 "Last-Translator: Vincent MINEAUD <vincent@gandi.net>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
@@ -116,7 +116,7 @@ msgstr "Pour avancer plus rapidement sur le développement de notre interface ut
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
 msgid "Forker nous sur GitHub"
-msgstr "Forker nous sur GitHub"
+msgstr "Nous forker sur GitHub"
 
 #: caliopen_website/templates/layout/contact.jinja2:21
 #: caliopen_website/templates/layout/home.jinja2:35
