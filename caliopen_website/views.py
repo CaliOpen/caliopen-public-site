@@ -12,8 +12,6 @@ use_less = False
 def home(request):
     return {
         'project': project,
-        'page_description': page_description,
-        'page_title': page_title,
         'page_author': page_author,
         'use_less': use_less
     }
@@ -23,8 +21,6 @@ def home(request):
 def contact(request):
     return {
         'project': project,
-        'page_description': page_description,
-        'page_title': page_title,
         'page_author': page_author,
         'active_nav': 'contact',
         'use_less': use_less
@@ -35,8 +31,6 @@ def contact(request):
 def features(request):
     return {
         'project': project,
-        'page_description': page_description,
-        'page_title': page_title,
         'page_author': page_author,
         'active_nav': 'features',
         'use_less': use_less
@@ -47,8 +41,6 @@ def features(request):
 def about(request):
     return {
         'project': project,
-        'page_description': page_description,
-        'page_title': page_title,
         'page_author': page_author,
         'active_nav': 'about',
         'use_less': use_less
@@ -59,8 +51,6 @@ def about(request):
 def tour(request):
     return {
         'project': project,
-        'page_description': page_description,
-        'page_title': page_title,
         'page_author': page_author,
         'active_nav': 'take_a_tour',
         'use_less': use_less
