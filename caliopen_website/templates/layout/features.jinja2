@@ -1,21 +1,21 @@
 {% extends "page.jinja2" %}
 
-{% block content %}
-  {% block inlinescript %}
-    <script>
-      $(function(){
-        $("#slides").slidesjs({
-          active: false,
-          width: 1200,
-          height: 800,
-          navigation: {
-            active: true
-          }
-        });
+{% block inlinescript %}
+  <script type="text/javascript">
+    $(function(){
+      $("#slides").slidesjs({
+        active: false,
+        width: 1200,
+        height: 800,
+        navigation: {
+          active: true
+        }
       });
-    </script>
-  {% endblock %}
+    });
+  </script>
+{% endblock %}
 
+{% block content %}
   <main id="features-slider">
     <div class="layout">
       <article>
