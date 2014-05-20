@@ -8,8 +8,8 @@ Installation
 ------------
 
 - Make a virtualenv
+- Activate venv
 - ``python setup.py develop``
 - ``bower install``
-- Activate venv
 - ``pserve development.ini``
 - Open ``localhost:6543``
