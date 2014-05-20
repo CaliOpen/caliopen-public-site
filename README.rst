@@ -10,6 +10,7 @@ Installation
 - Make a virtualenv
 - Activate venv
 - ``python setup.py develop``
+- ``pip install waitress``
 - ``bower install``
 - ``pserve development.ini``
 - Open ``localhost:6543``

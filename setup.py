@@ -13,8 +13,7 @@ requires = [
     'pyramid',
     'pyramid_jinja2',
     'babel',
-    'gunicorn',
-    'waitress'
+    'gunicorn'
     ]
 
 setup(name=name.replace('_', '-'),
