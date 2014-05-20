@@ -101,9 +101,19 @@ main {
     padding: 40px 0;
     min-height: 200px;
 
-    p {
+    > p {
       color: #01455C;
       margin-right: 340px;
+    }
+  }
+}
+@media (max-width: @screen-sm-min) {
+  #features-layout {
+    article {
+      > p {
+        margin-right: 0;
+        margin-top: 210px;
+      }
     }
   }
 }
