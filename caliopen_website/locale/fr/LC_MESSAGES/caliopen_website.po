@@ -229,8 +229,8 @@ msgid "Nous avons passé beaucoup de temps, avant même d' envisager les solutio
 msgstr "Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
 
 #: caliopen_website/templates/layout/home.jinja2:8
-msgid "Le meilleur moyen de discutter avec vos contacts"
-msgstr "Le meilleur moyen de discutter avec vos contacts"
+msgid "Le meilleur moyen de discuter avec vos contacts"
+msgstr "Le meilleur moyen de discuter avec vos contacts"
 
 #: caliopen_website/templates/layout/home.jinja2:16
 #: caliopen_website/templates/layout/tour.jinja2:14

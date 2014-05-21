@@ -319,7 +319,7 @@ msgid ""
 msgstr ""
 
 #: caliopen_website/templates/layout/home.jinja2:8
-msgid "Le meilleur moyen de discutter avec vos contacts"
+msgid "Le meilleur moyen de discuter avec vos contacts"
 msgstr ""
 
 #: caliopen_website/templates/layout/home.jinja2:16
