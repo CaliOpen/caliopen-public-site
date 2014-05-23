@@ -45,7 +45,7 @@ msgstr "Les moyens de garantir sa vie privée en ligne existent, mais leur usage
 
 #: caliopen_website/templates/layout/about.jinja2:44
 msgid "Un outils ouvert"
-msgstr "Un outils ouvert"
+msgstr "Un outil ouvert"
 
 #: caliopen_website/templates/layout/about.jinja2:45
 msgid ""
@@ -182,7 +182,7 @@ msgstr "Vues personnalisées"
 
 #: caliopen_website/templates/layout/features.jinja2:62
 msgid "Tout résultat de recherche, tout filtre défini par l'utilisateur, toute fonction de tri peuvent être sauvegardés et transformés en \"Vues\" pouvant être réutilisées, ou assignées à un terminal particulier."
-msgstr "Tout résultat de recherche, tout filtre défini par l'utilisateur, toute fonction de tri peuvent être sauvegardés et transformés en \"Vues\" pouvant être réutilisées, ou assignées à un terminal particulier."
+msgstr "Tout résultat de recherche, tout filtre défini par l'utilisateur, toute fonction de tri, peuvent être sauvegardés et transformés en \"Vues\" pouvant être réutilisées ou assignées à un terminal particulier."
 
 #: caliopen_website/templates/layout/features.jinja2:65
 msgid "Recherche intuitive"
@@ -226,7 +226,7 @@ msgstr "La confidentialité concerne la totalité de la correspondance en ligne.
 
 #: caliopen_website/templates/layout/features.jinja2:101
 msgid "Nous avons passé beaucoup de temps, avant même d' envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
-msgstr "Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
+msgstr "Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés.<br/>C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
 
 #: caliopen_website/templates/layout/home.jinja2:8
 msgid "Le meilleur moyen de discuter avec vos contacts"
@@ -356,7 +356,7 @@ msgstr "Pourquoi ce projet ? À quoi ça sert ? En quoi est-ce différent de tou
 #: caliopen_website/templates/layout/tour.jinja2:56
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Lire"
-msgstr "Lire"
+msgstr "<br/>Lire"
 
 #: caliopen_website/templates/layout/tour.jinja2:56
 msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
@@ -368,5 +368,5 @@ msgstr "Contact"
 
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
-msgstr "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
+msgstr "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous et rejoignez-nous."
 

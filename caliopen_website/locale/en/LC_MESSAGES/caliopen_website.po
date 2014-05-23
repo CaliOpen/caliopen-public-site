@@ -20,7 +20,7 @@ msgstr ""
 
 #: caliopen_website/templates/layout/about.jinja2:8
 msgid "Les grandes aventures commencent toujours par un premier pas..."
-msgstr "Les grandes aventures commencent toujours par un premier pas..."
+msgstr "Big adventures always begin with a first step..."
 
 #: caliopen_website/templates/layout/about.jinja2:9
 msgid ""
@@ -33,15 +33,15 @@ msgstr "One day, not long after Edward Snowden's revelations of NSA spying, Jér
 
 #: caliopen_website/templates/layout/about.jinja2:20
 msgid "Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne."
-msgstr "Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne."
+msgstr "Our primary objective: offer the possibility to protect one's online privacy to the maximum number of individuals."
 
 #: caliopen_website/templates/layout/about.jinja2:27
 msgid "La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé."
-msgstr "La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé."
+msgstr "The centralization of private correspondence tools has gone too far, putting users' private data in danger.  We need a decentralized tool."
 
 #: caliopen_website/templates/layout/about.jinja2:31
 msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier."
-msgstr "Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier."
+msgstr "The means of guaranteeing one's online privacy exist, but their use remains too complex for the majority of users. We must simplify them."
 
 #: caliopen_website/templates/layout/about.jinja2:44
 msgid "Un outils ouvert"
@@ -104,14 +104,14 @@ msgstr "The long history of free software has taught us the hard way: it's not e
 
 #: caliopen_website/templates/layout/contact.jinja2:8
 msgid "Aujourd'hui, nous avons besoin d'aide."
-msgstr "Aujourd'hui, nous avons besoin d'aide."
+msgstr "Today, we need help."
 
 #: caliopen_website/templates/layout/contact.jinja2:9
 msgid ""
 "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.\n"
 "\n"
 "Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
-msgstr "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.<br/><br/>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
+msgstr "In order for the development of our user interface to advance quickly, we need web developers (Angular, Pyramid, Python). We also need anyone with a strong background in cryptography who could collaborate by validating our choices and strengthening them.<br/><br/>Any questions or a desire to help out?  Please don't hesitate to contact us directly."
 
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
@@ -226,7 +226,7 @@ msgstr "Confidentiality affects the entirety of online correspondence. Caliopen 
 
 #: caliopen_website/templates/layout/features.jinja2:101
 msgid "Nous avons passé beaucoup de temps, avant même d' envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
-msgstr "Nous avons passé beaucoup de temps, avant même d' envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
+msgstr "Even before conceiving of the technical solutions, we've spent a great deal of time working on the ergonomics and design of the user interface and how it could integrate all private online messages. This is where the majority of our effort has been invested. In our opinion, if we are going to attract the largest number of users in the issues of online privacy, it's up to us to create an attractive tool, as opposed to waiting for it to happen elsewhere."
 
 #: caliopen_website/templates/layout/home.jinja2:8
 msgid "Le meilleur moyen de discuter avec vos contacts"
@@ -239,7 +239,7 @@ msgstr "Discover all features"
 
 #: caliopen_website/templates/layout/home.jinja2:28
 msgid "Origine de Caliopen"
-msgstr "Comment le projet est-il né ?"
+msgstr "How was the project born?"
 
 #: caliopen_website/templates/layout/home.jinja2:29
 msgid "spotlight"
@@ -247,7 +247,7 @@ msgstr "spotlight"
 
 #: caliopen_website/templates/layout/home.jinja2:30
 msgid "Connaitre l'idée initiatrice du projet présentée par Laurent Chemla."
-msgstr "Connaitre l'idée initiatrice du projet présentée par Laurent Chemla."
+msgstr "Discover the initial idea of this project presented by Laurent Chemla."
 
 #: caliopen_website/templates/layout/home.jinja2:34
 msgid "CaliOpen sur GitHub"
@@ -350,17 +350,17 @@ msgstr "A modern user experience for a better feeling with the application, ever
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 msgid "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
-msgstr "Pourquoi ce projet ? À quoi ça sert ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour échanger avec vos proches ou au travail ?"
+msgstr "Why this project?  What is the point?  How is it different from what you are currently using to communicate with family, friends and colleagues?"
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 #: caliopen_website/templates/layout/tour.jinja2:56
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Lire"
-msgstr "Read more"
+msgstr "<br/>Read more"
 
 #: caliopen_website/templates/layout/tour.jinja2:56
 msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
-msgstr "Les principales fonctionnalités de l'interface utilisateur de CaliOpen."
+msgstr "The main functionalities of the CaliOpen user interface."
 
 #: caliopen_website/templates/layout/tour.jinja2:59
 msgid "Contact"
@@ -368,7 +368,7 @@ msgstr "Contact"
 
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
-msgstr "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
+msgstr "Would you like to express your opinion of CaliOpen?  Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate?  Help us and join us!"
 
 #~ msgid ""
 #~ msgstr ""
