@@ -356,7 +356,7 @@ msgstr "Why this project?  What is the point?  How is it different from what you
 #: caliopen_website/templates/layout/tour.jinja2:56
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Lire"
-msgstr "<br/>Read more"
+msgstr "Read more"
 
 #: caliopen_website/templates/layout/tour.jinja2:56
 msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
