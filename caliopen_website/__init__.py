@@ -26,6 +26,7 @@ def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
     config = Configurator(settings=settings,
+                          root_factory='caliopen_website.security.RootContext',
                           locale_negotiator=locale_negotiator)
 
     views.use_less = settings['caliopen_ws.css'] == 'less'
