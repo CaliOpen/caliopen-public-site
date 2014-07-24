@@ -140,9 +140,8 @@ msgid "enveloppe"
 msgstr "enveloppe"
 
 #: caliopen_website/templates/layout/contact.jinja2:30
-#: caliopen_website/templates/layout/page.jinja2:75
-msgid "Visiter notre blog"
-msgstr "Visiter notre blog"
+msgid "Nous contacter sur irc"
+msgstr "Nous contact sur irc"
 
 #: caliopen_website/templates/layout/contact.jinja2:31
 msgid "bubble"
