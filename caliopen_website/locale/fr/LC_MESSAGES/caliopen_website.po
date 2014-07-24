@@ -141,7 +141,7 @@ msgstr "enveloppe"
 
 #: caliopen_website/templates/layout/contact.jinja2:30
 msgid "Nous contacter sur irc"
-msgstr "Nous contact sur irc"
+msgstr "Nous contacter sur irc"
 
 #: caliopen_website/templates/layout/contact.jinja2:31
 msgid "bubble"
