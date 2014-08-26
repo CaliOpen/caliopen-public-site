@@ -288,7 +288,7 @@ msgid "Nous contacter"
 msgstr "Contact us"
 
 #: caliopen_website/templates/layout/page.jinja2:58
-msgid "Un projet supporté par"
+msgid "Un projet soutenu par"
 msgstr "Project supported by"
 
 #: caliopen_website/templates/layout/page.jinja2:65
