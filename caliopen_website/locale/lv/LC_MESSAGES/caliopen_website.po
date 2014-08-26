@@ -165,7 +165,7 @@ msgstr "Intelligent appointments"
 
 #: caliopen_website/templates/layout/features.jinja2:51
 msgid "L'application propose elle-même les dates de rendez-vous en fonction des disponibilités dans l'agenda des contacts invités, les invitations et les confirmations sont traitées automatiquement."
-msgstr "The application automatically proposes meeting dates based on openings in the calendars of invited contacts. Invitations and confirmations are processed automatically."
+msgstr "The application automatically proposes meeting dates based on availability in the calendars of invited contacts. Invitations and confirmations are processed automatically."
 
 #: caliopen_website/templates/layout/features.jinja2:54
 msgid "Labels automatiques"
@@ -209,11 +209,11 @@ msgstr "When the system detects a risk of interception (such as through an open 
 
 #: caliopen_website/templates/layout/features.jinja2:84
 msgid "Paramétrages avancés"
-msgstr "Advance parameters"
+msgstr "Advanced parameters"
 
 #: caliopen_website/templates/layout/features.jinja2:85
 msgid "L'interface est personnalisable, le niveau minimal d'importance (en dessous duquel un courrier devient indésirable) est géré de façon dynamique, les contacts peuvent être temporairement ignorés, le partage des fichiers automatisé..."
-msgstr "The interface is customizable, the minimal level of importance (below which an email becomes undesirable) is managed in a dynamic fashion. Contacts can be temporarily ignored or the sharing of documents can be automated."
+msgstr "The interface is customizable, the minimal level of importance (below which an email becomes undesirable) is managed dynamically. Contacts can be temporarily ignored or the sharing of documents can be automated."
 
 #: caliopen_website/templates/layout/features.jinja2:89
 msgid "Centralisation des messages"
@@ -221,15 +221,15 @@ msgstr "Centralization of messages"
 
 #: caliopen_website/templates/layout/features.jinja2:90
 msgid "La confidentialité concerne la totalité de la correspondance en ligne. Caliopen réunit dans une unique interface les messages privés applicatifs (Twitter, Facebook), le courrier électronique, la messagerie en direct, les SMS...."
-msgstr "Confidentiality affects the entirety of online correspondence. Caliopen unifies private application messages (Twitter and Facebook for example), email, instant messages (chat) and SMS messages within in a single interface."
+msgstr "Confidentiality affects the entirety of online correspondence. Caliopen unifies private application messages (Twitter and Facebook for example), email, instant messages (chat) and SMS messages within a single interface."
 
 #: caliopen_website/templates/layout/features.jinja2:101
 msgid "Nous avons passé beaucoup de temps, avant même d' envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
-msgstr "Even before conceiving of the technical solutions, we've spent a great deal of time working on the ergonomics and design of the user interface and how it could integrate all private online messages. This is where the majority of our effort has been invested. In our opinion, if we are going to attract the largest number of users in the issues of online privacy, it's up to us to create an attractive tool, as opposed to waiting for it to happen elsewhere."
+msgstr "Even before conceiving of the technical solutions, we've spent a great deal of time working on the design of the user interface and how to integrate all private online messages. This is where the majority of our effort has been invested. In our opinion, if we are going to attract the largest number of users in the issues of online privacy, it's up to us to create an attractive tool, as opposed to waiting for it to happen elsewhere."
 
 #: caliopen_website/templates/layout/home.jinja2:8
 msgid "Le meilleur moyen de discuter avec vos contacts"
-msgstr "The best way to discuss with your contacts,<br/>while preserving your privacy."
+msgstr "The best way to communicate with your contacts,<br/>while preserving your privacy."
 
 #: caliopen_website/templates/layout/home.jinja2:16
 #: caliopen_website/templates/layout/tour.jinja2:14
@@ -254,11 +254,11 @@ msgstr "CaliOpen on GitHub"
 
 #: caliopen_website/templates/layout/home.jinja2:36
 msgid "Participer au développement du projet et s'impliquer."
-msgstr "Participate to the development of the project and get involved."
+msgstr "Participate in the development of the project and get involved."
 
 #: caliopen_website/templates/layout/home.jinja2:40
 msgid "CaliOpen en détails"
-msgstr "CaliOpen in details"
+msgstr "CaliOpen in detail"
 
 #: caliopen_website/templates/layout/home.jinja2:41
 #: caliopen_website/templates/layout/page.jinja2:34
@@ -269,7 +269,7 @@ msgstr "Features"
 
 #: caliopen_website/templates/layout/home.jinja2:42
 msgid "Découvrir toutes les fonctionnalités clés de l'application et notre vision."
-msgstr "Discover all key features of the application and our vision."
+msgstr "Discover all the key features and our vision."
 
 #: caliopen_website/templates/layout/page.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:22
@@ -337,7 +337,7 @@ msgstr "confidentiality"
 
 #: caliopen_website/templates/layout/tour.jinja2:34
 msgid "Un outil pour contrôler et vérifier le niveau de confidentialité de vos contacts, messages, fichiers, périphériques ou autre"
-msgstr "You'll always know the confidentiality level of your messages, contacts, files, devices or whatever"
+msgstr "You'll always know the confidentiality level of your messages, contacts, files and devices"
 
 #: caliopen_website/templates/layout/tour.jinja2:37
 msgid "expérience utilisateur"
@@ -345,7 +345,7 @@ msgstr "user experience"
 
 #: caliopen_website/templates/layout/tour.jinja2:38
 msgid "Une expérience utilisateur moderne pour une meilleure sensation, tout est naturel avec un design bien pensé"
-msgstr "A modern user experience for a better feeling with the application, everything is natural and design thinked"
+msgstr "A modern user experience for a better feeling with the application; everything is natural and carefully designed"
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 msgid "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
@@ -359,7 +359,7 @@ msgstr "Read more"
 
 #: caliopen_website/templates/layout/tour.jinja2:56
 msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliterons la vie."
-msgstr "The main functionalities of the CaliOpen user interface."
+msgstr "The main features of the CaliOpen user interface."
 
 #: caliopen_website/templates/layout/tour.jinja2:59
 msgid "Contact"
@@ -367,7 +367,7 @@ msgstr "Contact"
 
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
-msgstr "Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Help us and join us!"
+msgstr "Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Join us!"
 
 #~ msgid ""
 #~ msgstr ""
