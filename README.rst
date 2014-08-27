@@ -14,3 +14,10 @@ Installation
 - ``bower install``
 - ``pserve development.ini``
 - Open ``localhost:6543``
+
+Update of translation
+---------------------
+
+If you want to update translation resources, make update
+in .po file and then run a ``python setup.py compile_catalog``
+to update the related .mo file
