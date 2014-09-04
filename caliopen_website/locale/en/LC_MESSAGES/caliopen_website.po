@@ -254,11 +254,11 @@ msgstr "CaliOpen on GitHub"
 
 #: caliopen_website/templates/layout/home.jinja2:36
 msgid "Participer au développement du projet et s'impliquer."
-msgstr "Participate to the development of the project and get involved."
+msgstr "Participate in the development of the project and get involved."
 
 #: caliopen_website/templates/layout/home.jinja2:40
 msgid "CaliOpen en détails"
-msgstr "CaliOpen in details"
+msgstr "CaliOpen in detail"
 
 #: caliopen_website/templates/layout/home.jinja2:41
 #: caliopen_website/templates/layout/page.jinja2:34
@@ -269,7 +269,7 @@ msgstr "Features"
 
 #: caliopen_website/templates/layout/home.jinja2:42
 msgid "Découvrir toutes les fonctionnalités clés de l'application et notre vision."
-msgstr "Discover all key features of the application and our vision."
+msgstr "Discover the key features of the application and our vision."
 
 #: caliopen_website/templates/layout/page.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:22
@@ -309,7 +309,7 @@ msgstr "Community"
 
 #: caliopen_website/templates/layout/tour.jinja2:8
 msgid "Et votre vie privée devient complétement privée..."
-msgstr "And your privacy becomes completely private..."
+msgstr "And your private life becomes private again..."
 
 #: caliopen_website/templates/layout/tour.jinja2:10
 msgid "Centraliser toutes vos communications privées"
@@ -367,7 +367,7 @@ msgstr "Contact"
 
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
-msgstr "Would you like to express your opinion of CaliOpen?  Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate?  Help us and join us!"
+msgstr "Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Help us and join us!"
 
 #~ msgid ""
 #~ msgstr ""
