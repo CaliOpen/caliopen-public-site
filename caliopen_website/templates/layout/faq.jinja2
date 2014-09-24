@@ -1,12 +1,48 @@
 {% extends "page.jinja2" %}
 
 {% block content %}
+<script type="text/javascript">/*<![CDATA[*/var ajaxOn=1,d=document.cookie;if(d&&d.search("ajaxOff")>=0){ajaxOn=0}document.documentElement.className="hasJS"+((ajaxOn)?" ajaxOn":"");/*]]>*/</script>
+<style type="text/css">
+    .faq dt {margin:2em 0 0.5em 0; font-weight:bold; background:none;}
+    .faq dd {margin-top:0.5em; margin-bottom:1em;}
+
+    .hasJS .faq dd {position:absolute; top:0; left:-200em; width:58em}
+    .hasJS .faq dd.on {position:static; left:0; width:auto}
+
+    .faq dt a,
+    .faq dt a:visited {display:block; color:#5a5a5a; text-decoration:none; border:0 solid;}
+    .faq dt a:hover,
+    .faq dt a:focus,
+    .faq dt a:active {color:#000;}
+
+    .faq dt i,
+    .faq dt b {
+      margin-right:1em; float:left; width: 16px; height: 17px; overflow:hidden; background-repeat: no-repeat;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAiBAMAAACkb0T0AAAAMFBMVEX///+kpKT4+Ph7e3vMzMyUlJTu7u68vLyEhIRzc3Pf39+NjY2ZmZnExMTU1NTq6uqVHy7CAAAAAXRSTlMAQObYZgAAAJRJREFUeF49kLENQjEQQ60I8RFSdohgikxCwQSMkA7RUaFfIOEtaCgoKRmBDViBjrvL/3b15OQS+yAtX6XDiieDVLDlzazvEQualeoIfMxK9QpksxzCQsBA7s4OaCQDcp0A74D1/vEMOJAM+AWMPu26ANi4ikBHuqxxPagvHDI7KIaCtSnqMIdvvY4KzpXvWoLWIv0BoKJU4+j6VIYAAAAASUVORK5CYII=);
+      *background-image:url(arrows.grey.png);
+    }
+    .faq .on i {background-position:bottom;}
+    .faq dt b {background:none;}
+
+
+    /* Let's try some of that fancy CSS3 then */
+    .hasJS .faq dd {
+      opacity:0;
+      -moz-transition: opacity 0.3s ease-in;
+      -o-transition: opacity 0.3s ease-in;
+      -webkit-transition: opacity 0.3s ease-in;
+      transition: opacity 0.3s ease-in;
+    }
+    .hasJS .faq dd.on {
+      opacity: 1;
+    }
+</style>
   <main id="faq-text">
     <div class="layout">
       <div>
         <div class="content">
           <dl class="faq">
-   <dt class="on">Q. C'est quoi Caliopen ? Un service ? Une application à installer ?</dt>
+   <dt>Q. C'est quoi Caliopen ? Un service ? Une application à installer ?</dt>
    <dd>Caliopen est une suite logicielle permettant le déploiement simplifié d'une solution de messagerie sécurisée.<p>
 Par principe, Caliopen n'est pas directement destiné à une utilisation domestique (autohébergement, installation locale) mais plutôt orienté vers des installations permettant la gestion de centaines de milliers de compte utilisateurs.<p>
 Les technologies choisies ne sont pas adaptées à un usage local (même s'il est toujours possible de l'envisager), parce qu'une infrastructure de messagerie s'applique plus facilement à un grand nombre d'utilisateurs (économies d'échelle, gestion de l'antispam et des filtres systèmes...). En outre, le public principalement visé n'est pas techniquement formé à ce type d'usage.<p>
@@ -100,4 +136,144 @@ Ce qui sera possible, en revanche, c'est de trier via les "labels" de Caliopen: 
       </div>
     </div>
   </main>
+  <script type="text/javascript">
+  /*<![CDATA[*/
+var FAQ = (function () {
+
+  var faqClass,
+    onClass,
+    lnkClass,
+    DLs,
+    i,
+    ii,
+    iii,
+    faqDLs = [],
+    dts,
+    lnkObj,
+    ns,
+    lnkTxt;
+
+  function hasClass(o,c){return new RegExp('(\\s|^)'+c+'(\\s|$)').test(o.className);}
+  function addClass(o,c){if(!hasClass(o,c)){o.className+=' '+c;}}
+  function removeClass(o,c){if(hasClass(o,c)){o.className=o.className.replace(new RegExp('(\\s|^)'+c+'(\\s|$)'),' ').replace(/\s+/g,' ').replace(/^\s|\s$/,'');}}
+
+  function getNextSibling(o) {
+    var n = o.nextSibling;
+    while (n !== null && n.nodeType !== 1) {
+      n = n.nextSibling;
+    }
+    return n;
+  }
+
+  function showHideDDs() {
+    var dds = this.siblings,
+      i = dds.length,
+      p = this.parentNode;
+    if (hasClass(p, onClass)) { //remove "on" class
+      removeClass(p, onClass);
+      while (i--) {
+        removeClass(dds[i], onClass);
+      }
+    } else { // add "on" class
+      addClass(p, onClass);
+      while (i--) {
+        addClass(dds[i], onClass);
+      }
+    }
+    return false;
+  }
+
+  function init(cfg) {
+
+    // default over-rides
+    faqClass = cfg.faqClass || "faq";
+    onClass = cfg.onClass || "on";
+    lnkClass = cfg.linkClass || "";
+
+
+    // create a list from all DL's identified by faqClass
+    DLs = document.getElementsByTagName("dl");
+    i = DLs.length;
+    while (i--) {
+      if (hasClass(DLs[i], faqClass)) {
+        faqDLs.push(DLs[i]);
+      }
+    }
+    i = faqDLs.length;
+    while (i--) {
+
+      dts = faqDLs[i].getElementsByTagName('dt');
+      ii = dts.length;
+      while (ii--) {
+
+        // create an activating link object
+        lnkObj = document.createElement('a');
+
+        // get a list of DT siblings and attach to the link object
+        lnkObj.siblings = [];
+        ns = getNextSibling(dts[ii]);  // the DT's first sibling
+
+        while (ns !== null) {
+
+          // Only interested if it is a DD
+          if (ns.tagName === "DD") {
+            lnkObj.siblings.push(ns);
+            ns = getNextSibling(ns);
+          } else {
+
+            // next sibling is not a DD therefore end loop
+            ns = null;
+          }
+        }
+
+        // Only add link object and associated html changes if there is at least one DD
+        iii = lnkObj.siblings.length;
+        if (iii) {
+
+          // store original text and then empty.
+          lnkTxt = dts[ii].innerHTML;
+          dts[ii].innerHTML = "";
+
+          // if a class is required for the activating link then add one
+          if (lnkClass !== "") {
+            lnkObj.className = lnkClass;
+          }
+
+          // add click functionality
+          lnkObj.href = "#";
+          lnkObj.onclick = showHideDDs;
+
+          // add an i element to display a show/hide icon
+          lnkObj.appendChild(document.createElement('i'));
+
+          // insert original text back into the new link
+          lnkObj.appendChild(document.createTextNode(lnkTxt));
+
+          // add link to HTML
+          dts[ii].appendChild(lnkObj);
+
+          // If a DT already has an "on" class, then add the "on" class to its DD's too.
+          if (hasClass(dts[ii], onClass)) {
+            while (iii--) {
+              addClass(lnkObj.siblings[iii], onClass);
+            }
+          }
+        } else {
+
+          // add a B element to reserve space without displaying an icon
+          dts[ii].innerHTML = "<b></b>" + dts[ii].innerHTML;
+        }
+      }
+    }
+  }
+
+  return {
+    init : init
+  };
+
+}());
+
+FAQ.init({});
+
+  </script>
 {% endblock %}
