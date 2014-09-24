@@ -55,3 +55,13 @@ def tour(request):
         'active_nav': 'take_a_tour',
         'use_less': use_less
     }
+
+
+@view_config(route_name='faq', renderer='templates/layout/faq.jinja2')
+def faq(request):
+    return {
+        'project': project,
+        'page_author': page_author,
+        'active_nav': 'faq',
+        'use_less': use_less
+    }

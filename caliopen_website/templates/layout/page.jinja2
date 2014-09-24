@@ -43,6 +43,13 @@
                 <a href="{{'contact'|route_path}}" class="button">{{ _('Nous contacter') }}</a>
               {% endif %}
             </li>
+            <li id="navigation-main-faq">
+              {% if active_nav == 'faq' %}
+                <span class="button">{{ _('FAQ') }}</span>
+              {% else %}
+                <a href="{{'faq'|route_path}}" class="button">{{ _('FAQ') }}</a>
+              {% endif %}
+            </li>
           </ul>
         </nav>
       </div>

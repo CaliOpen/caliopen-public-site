@@ -38,6 +38,7 @@ def main(global_config, **settings):
     config.add_route('features', '/features')
     config.add_route('about', '/about')
     config.add_route('tour', '/tour')
+    config.add_route('faq', '/faq')
     config.scan()
 
     return config.make_wsgi_app()
