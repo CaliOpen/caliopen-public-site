@@ -14,3 +14,4 @@ venusian==1.0a8
 wsgiref==0.1.2
 zope.deprecation==4.1.1
 zope.interface==4.1.1
+waitress==0.8.9
