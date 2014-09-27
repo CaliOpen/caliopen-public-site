@@ -1,25 +1,6 @@
 from pyramid.config import Configurator
 from . import views
-
-
-LANGUAGES = {
-        'en-CA': 'en',
-        'en-GB': 'en',
-        'en-US': 'en',
-        'en': 'en',
-        'fr-FR': 'fr',
-        'fr-BE': 'fr',
-        'fr': 'fr',
-        }
-
-
-def locale_negotiator(request):
-    """Locale negotiator base on the `Accept-Language` header"""
-    locale = 'en'
-    if request.accept_language:
-        locale = request.accept_language.best_match(LANGUAGES)
-        locale = LANGUAGES.get(locale, 'en')
-    return locale
+from .lang import locale_negotiator
 
 
 def main(global_config, **settings):
@@ -38,6 +19,7 @@ def main(global_config, **settings):
     config.add_route('features', '/features')
     config.add_route('about', '/about')
     config.add_route('tour', '/tour')
+    config.add_route('faq', '/faq')
     config.scan()
 
     return config.make_wsgi_app()

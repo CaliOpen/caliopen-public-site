@@ -231,6 +231,9 @@ msgstr "Nous avons passé beaucoup de temps, avant même d'envisager les solutio
 msgid "Le meilleur moyen de discuter avec vos contacts"
 msgstr "Le meilleur moyen de discuter avec vos contacts"
 
+msgid "Voir mockup"
+msgstr "Tester le prototype"
+
 #: caliopen_website/templates/layout/home.jinja2:16
 #: caliopen_website/templates/layout/tour.jinja2:14
 msgid "Essayer la démo"
