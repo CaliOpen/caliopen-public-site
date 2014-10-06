@@ -125,7 +125,7 @@ msgstr "octopus Github"
 
 #: caliopen_website/templates/layout/contact.jinja2:25
 msgid "Envoyer un email"
-msgstr "Envoyer un email"
+msgstr "Envoyer un courriel"
 
 #: caliopen_website/templates/layout/contact.jinja2:26
 msgid "contact@caliopen.org"
@@ -217,7 +217,7 @@ msgstr "L'interface est personnalisable, le niveau minimal d'importance (en dess
 
 #: caliopen_website/templates/layout/features.jinja2:89
 msgid "Centralisation des messages"
-msgstr "Centralisation des messages"
+msgstr "Regrouper les messages"
 
 #: caliopen_website/templates/layout/features.jinja2:90
 msgid "La confidentialité concerne la totalité de la correspondance en ligne. Caliopen réunit dans une unique interface les messages privés applicatifs (Twitter, Facebook), le courrier électronique, la messagerie en direct, les SMS...."
@@ -229,7 +229,7 @@ msgstr "Nous avons passé beaucoup de temps, avant même d'envisager les solutio
 
 #: caliopen_website/templates/layout/home.jinja2:8
 msgid "Le meilleur moyen de discuter avec vos contacts"
-msgstr "Le meilleur moyen de discuter avec vos contacts"
+msgstr "Le meilleur moyen de discuter avec vos contacts tout en protégeant votre vie privée"
 
 msgid "Voir mockup"
 msgstr "Tester le prototype"
@@ -316,7 +316,7 @@ msgstr "Et votre vie privée devient complétement privée..."
 
 #: caliopen_website/templates/layout/tour.jinja2:10
 msgid "Centraliser toutes vos communications privées"
-msgstr "Centraliser toutes vos communications privées"
+msgstr "Regrouper toutes vos communications privées"
 
 #: caliopen_website/templates/layout/tour.jinja2:11
 msgid "Partager en toute sécurité des informations confidentielles"
@@ -328,7 +328,7 @@ msgstr "Profiter d'une interface intuitive"
 
 #: caliopen_website/templates/layout/tour.jinja2:29
 msgid "centraliser"
-msgstr "centraliser"
+msgstr "Regrouper"
 
 #: caliopen_website/templates/layout/tour.jinja2:30
 msgid "Une application pour centraliser toutes vos communications privées, à tout moment, partout"
