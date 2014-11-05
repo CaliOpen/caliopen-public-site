@@ -463,7 +463,7 @@ msgid ""
 "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein"
 " de notre solution. Échangez simplement et sereinement avec votre entourage, "
 "et découvrez des possibilités multiples qui sont le fruit d'une longue "
-"réflexion et qui désormais vous faciliterons la vie."
+"réflexion et qui désormais vous faciliteront la vie."
 msgstr ""
 
 #: caliopen_website/templates/layout/tour.jinja2:59
