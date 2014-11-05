@@ -1,0 +1,298 @@
+# German translations for caliopen-website.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the caliopen-website
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: caliopen-website 0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-05-16 17:12+0200\n"
+"PO-Revision-Date: 2014-05-19 16:46+0100\n"
+"Last-Translator: Diane MOEBS <didimo@sevrin.me>\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+#: caliopen_website/templates/layout/about.jinja2:8
+msgid "Les grandes aventures commencent toujours par un premier pas..."
+msgstr "Große Abenteuer fangen immer mit einem ersten Schritt..."
+
+#: caliopen_website/templates/layout/about.jinja2:9
+msgid ""
+"Un jour, Jérémie Zimmermann est passé chez moi, pendant ses vacances, en pleine affaire PRISM.\n"
+"\n"
+"Nous avons parlé, ce jour là, d'un ancien projet de service de courrier électronique, respectueux de la vie privée des utilisateurs, mais qui - face à l'ogre Google - n'a jamais vu le jour. Jérémie m'a alors poussé à relancer ce projet, expliquant que désormais, grâce à Edward Snowden, une partie du public était sans doute prête à quitter GMail et les autres pour quelque chose de moins centralisé, de moins propriétaire, et qui ne soit pas basé sur l'exploitation du contenu de nos échanges privés.\n"
+"\n"
+"Depuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur."
+msgstr "Eines Tages ist Jérémie Zimmermann in den Ferien, während des PRISM Skandals bei mir vorbeigekommen. An jenem Tag haben wir von einem alten E-Mail-Programm Projekt gesprochen, das das Privatleben der Benutzer völlig respektiert. Wegen der zu großen Macht von Google, ist dieses Projekt nie aufgekommen. Jérémie hat also mich gedrängt, dieses Projekt wieder anzuwerfen, weil Leute jetzt dank Edward Snowden bestimmt gerüstet sind, Gmail zu verlassen, um einen dezentralisierten Dienst zu benutzen, der Privatdaten der Benutzer nicht ausnutzt.<br/><br/>Caliop's Zeit ist gekommen.<br/><br/>Von diesem Tag an haben wir mit einem Team sehr hart gearbeitet. Dieses Team wurde dank der unerbittlichen Unterstützung von Gandi und La Quadrature du Net vereinigt."
+#: caliopen_website/templates/layout/about.jinja2:20
+msgid "Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne."
+msgstr "Unser Hauptziel : die breite Öffentlichkeit ermöglichen, ihre Privatdaten online zu schützen."
+#: caliopen_website/templates/layout/about.jinja2:27
+msgid "La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé."
+msgstr "Die Zentralisierung der Tools für private Korrespondenzen ist zu weit gekommen. Sie gefährdet private Daten der Benutzer. Wir brauchen heute ein dezentralisiertes Tool."
+#: caliopen_website/templates/layout/about.jinja2:31
+msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier."
+msgstr "Sicherheitsmittel sind heute vorhanden, aber sie sind zu schwierig zu verstehen und im Alltag bei den meisten Leuten zu benutzen. Sie sollen vereinfacht werden."
+#: caliopen_website/templates/layout/about.jinja2:44
+msgid "Un outils ouvert"
+msgstr "Caliop will be sustainable, secure, free, and open."
+#: caliopen_website/templates/layout/about.jinja2:45
+msgid ""
+"Nous devons créer un logiciel libre, que n'importe quel administrateur système puisse installer aussi facilement qu'un CMS.\n"
+"\n"
+"Nous devons faire en sorte que chaque instance de notre outil puisse dialoguer avec les autres, de façon sécurisée. Et nous devons, en même temps, rester ouverts aux protocoles standards, pour ne pas limiter les contacts de nos utilisateurs aux seuls autres participants à notre réseau de services."
+msgstr "Wir brauchen eine freie Software, die bei jedem Netzwerkadministrator installiert werden kann, als wäre sie ein CMS.<br/><br/>Es soll besonders geachtet werden, dass jede Entität dieses Tools mit den anderen in einer sicheren Weise zu interagieren. Gleichzeitig sollen StandardProtokolle unterstützt werden, damit unsere Benutzer nicht begrenzt werden, unsere Tools zu benutzen.<br/><br/>Dieses Tool soll auch eine freie und Open-Source Software werden, damit Benutzer Privatdaten nie von Eigentumsbeschränkungen gefährdet werden, und Sicherheitsprobleme entdeckt werden können."
+#: caliopen_website/templates/layout/about.jinja2:46
+msgid "Nous devons créer plus qu'un outil : un écosystème."
+msgstr "Wir brauchen mehr als ein einfaches Tool : ein Ökosystem."
+#: caliopen_website/templates/layout/about.jinja2:49
+msgid "Un label Caliopen"
+msgstr "Ein CaliOpen Label"
+#: caliopen_website/templates/layout/about.jinja2:50
+msgid ""
+"Nous avons imaginé une association, qui donnera un label aux services qui le demanderont.\n"
+"\n"
+"Ce label, couplé à un certificat de chiffrement, permettra les échanges privés à l'intérieur de notre écosystème tout en garantissant à l'utilisateur final le respect d'une charte interdisant toute utilisation de ses données privées à des fins commerciales."
+msgstr "Wir wollen ein Verein gründen, das dieses Label den Unternehmenen auszeichnen wird, die um es gebeten haben.<br/><br/>Dieses Label wird zusammen mit einem verschlüsselten Zertifikat, das den Unternehmen erlauben wird,  ein privates Netz zu erreichen, das alle Caliopen Akteure vereinigt. Unternehmen, die unser freies open-source Tool benutzen wollen, müssen dafür gewährleisten, dass sie die Benutzerdaten schützen und nie geschäfltich ausnutzen."
+#: caliopen_website/templates/layout/about.jinja2:53
+#: caliopen_website/templates/layout/features.jinja2:39
+msgid "Niveau de confidentialité"
+msgstr "Vertraulichkeitstand"
+#: caliopen_website/templates/layout/about.jinja2:54
+msgid ""
+"Notre interface utilisateur affiche à chaque instant le niveau de confidentialité des échanges affichés en tenant compte non seulement des moyens de protection de l'utilisateur, mais aussi de ceux de ses correspondants et de la chaîne de serveurs transitaires.\n"
+"\n"
+"En connaissant le niveau global de confidentialité de ses contacts, un utilisateur peut décider d'accorder plus de confiance à tel ou untel, privilégiant ceux qui affichent un haut niveau de sécurité, et poussant ainsi ses autres correspondants à utiliser eux aussi les outils de chiffrement mis à leur disposition.\n"
+"\n"
+"De même, l'utilisateur doit pouvoir choisir de n'afficher que ses échanges les moins importants lorsqu'il utilise un terminal peu sécurisé (et qui ne lui permet pas d'offrir à ses correspondants le degré de confidentialité qu'ils attendent de lui), sauf à voir son propre niveau baisser et risquer d'être considéré comme un contact \"à risque\"."
+msgstr "In jedem Augenblick wird der Benutzer den Vertraulichkeitstand eines Gesprächs einfach auf CaliOpens Webschnittstelle. Dieser Vertraulichkeitstand schaut nicht nur, ob der Benutzer seine Nachrichte wohl schützt, sondern auch was seine Korrespondanten zum Sicherheitszweck tun, und ob die Server gut konfiguriert werden, um die Nachrichtenübertragung zu versichern.<br/><br/>Dieses Sicherheitskenntnis wird den Benutzer helfen, zu entscheiden, ob er Korrespondanten vertrauen kann oder nicht, und die schlechtest geschützten Benutzer zu zureden, sicherer Tools zu benutzen. Diese letzte Benutzer werden dann vielleicht entscheiden ihren eigenen Sicherheitsstand zu verbessern.<br/><br/>CaliOpens Benutzer muss auch entscheiden können, nur weniger vertrauliche Nachrichte anzuzeigen, wenn er ein unsicheres Gerät benutzt (das ermöglicht ihm, die Sicherheit der Nachrichte seiner Korrespondanten zu gewährleisten !), oder er wird als gefährdeter Kontakt betrachtet werden."
+#: caliopen_website/templates/layout/about.jinja2:57
+msgid "Changer les comportements"
+msgstr "Caliop wird zu Verhaltensänderungen beitragen"
+#: caliopen_website/templates/layout/about.jinja2:58
+msgid ""
+"Ainsi, par le jeu des interactions sociales, nous croyons possible de créer une motivation suffisamment forte pour que les utilisateurs de notre solution prennent l'habitude de sécuriser toujours d'avantage leurs communications et ainsi, pourquoi pas, de pousser y compris les géants du Web à modifier leur approche de la vie privée de leurs propres utilisateurs.\n"
+"\n"
+"Et la longue histoire du logiciel libre nous l'a appris à la dure : il ne suffit pas de proposer un outil équivalent à ce qui existe déjà. La grande majorité des utilisateurs n'a pas le courage, ou l'envie, de changer d'adresse email, même pour protéger sa vie privée."
+msgstr "Wir halten es für möglich, dass soziale Interaktionen zwischen CaliOpen Benutzer und normale Webbenutzer helfen können, eine starke Leistungswille aller Benutzer, ihre Nachrichte versichern zu wollen. Und warum wären Web-Riesen nachher nicht beim Dateschutz betroffen ?<br/><br/>Die lange Geschichte der freie Software hat das uns die harte Weise gelerht : Es genügt nicht ein ähnliches Tool anzubieten. Die meisten Benutzer haben nämlich ihre Gewohnheiten, und haben keinen Mut, ihre E-mail-Adresse zu ändern, obwohl es sie erlaubt, sicherer Gespräche zu haben."
+#: caliopen_website/templates/layout/about.jinja2:61
+msgid "Un nouveau départ"
+msgstr "Ein neuer Anfang"
+#: caliopen_website/templates/layout/about.jinja2:62
+msgid "Nous avons la chance, à la différence des opérateurs déjà présents, de partir d'une feuille blanche. Nous n'avons pas à craindre de perdre nos utilisateurs si nous leur proposons une interface radicalement différente, plus adaptée au monde moderne, où nos échanges privés ne sont pas restreints au courrier électronique mais passent par le SMS, l'IRC, les messages privés de Twitter, WebRTC..."
+msgstr "Wir haben Glück den anderen Geselschafften hingegen, unser Programmpaket aus nichts zu schaffen. Wir befürchten keinen Benutzerverlust, wenn wir etwas ganz anderes anbieten, als was schon existiert, etwas, das an die moderne Welt besser angepasst ist, und wo unsere private Nachrichte nicht nur E-Mails sind, sondern auch SMS, IRC oder Twitter private Nachrichte, WebRTC..."
+#: caliopen_website/templates/layout/contact.jinja2:8
+msgid "Aujourd'hui, nous avons besoin d'aide."
+msgstr "Wir brauchen eure Hilfe !"
+#: caliopen_website/templates/layout/contact.jinja2:9
+msgid ""
+"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.\n"
+"\n"
+"Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
+msgstr "Web-Entwickler (Angular,Pyramid und Python) sind gebraucht, damit wir unsere Webschnittstelle schneller weitermachen können. Wir brauchen auch Leute, die kryptographische Kenntnisse haben, um unsere Wähle zu bestätigen oder zu verbessern.<br/><br/>Bei Fragen oder um deine Hilfe anzubieten, nimm Kontakt mit uns auf !"
+#: caliopen_website/templates/layout/contact.jinja2:20
+#: caliopen_website/templates/layout/page.jinja2:74
+msgid "Forker nous sur GitHub"
+msgstr "Spaltet unser GitHub Repository auf"
+#: caliopen_website/templates/layout/contact.jinja2:21
+#: caliopen_website/templates/layout/home.jinja2:35
+msgid "octopus Github"
+msgstr "Githubs Krake"
+#: caliopen_website/templates/layout/contact.jinja2:25
+msgid "Envoyer un email"
+msgstr "Sende eine E-Mail"
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "contact@caliopen.org"
+msgstr "contact@caliopen.org"
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "Contacter l'équipe CaliOpen"
+msgstr "Nimm Kontakt mit dem Team auf"
+#: caliopen_website/templates/layout/contact.jinja2:26
+msgid "enveloppe"
+msgstr "Briefumschlag"
+#: caliopen_website/templates/layout/contact.jinja2:30
+msgid "Nous contacter sur irc"
+msgstr "Chatte mit uns im IRC"
+#: caliopen_website/templates/layout/contact.jinja2:31
+msgid "bubble"
+msgstr "Bulle"
+#: caliopen_website/templates/layout/features.jinja2:40
+msgid "Calculé pour chaque élément de l'interface (compte, message, contact...), ce niveau est à la fois un indicateur de confiance et une incitation à mieux se protéger."
+msgstr "Jede Nachrichtelement (Konto, Nachricht oder Kontakt) wird einen Vertraulichkeitstand bekommen. Der Vertraulichkeitstand schaut wie du diese Nachricht vertrauen kannst, und ermuntert dich und deine Kontakten, sich besser zu schützen."
+#: caliopen_website/templates/layout/features.jinja2:43
+msgid "Niveaux d'importance"
+msgstr "Wichtigkeitsstand"
+#: caliopen_website/templates/layout/features.jinja2:44
+msgid "Principal paramètre de tri de la timeline, le calcul de l'importance dépend autant des choix de l'utilisateur que de données objectives. Un spam aura, par exemple, un niveau d'importance minimal."
+msgstr "Der Wichtigkeitsstand ist der Hauptsortierungparameter der Timeline. Es wird durch die Wähle des Benutzers und objektive Daten ermittelt. Spammails werden zum Beispiel den niedrigsten Wichtigkeitsstand bekommen."
+#: caliopen_website/templates/layout/features.jinja2:50
+msgid "Rendez-vous intelligents"
+msgstr "Kluge Termine"
+#: caliopen_website/templates/layout/features.jinja2:51
+msgid "L'application propose elle-même les dates de rendez-vous en fonction des disponibilités dans l'agenda des contacts invités, les invitations et les confirmations sont traitées automatiquement."
+msgstr "CaliOpen schlägt Verabredungen automatisch basierend auf Verfügbarkeit in den Kalender eingeladener Kontakte vor. Einladungen und Bestätigungen werden auch automatisch ausgeführt."
+#: caliopen_website/templates/layout/features.jinja2:54
+msgid "Labels automatiques"
+msgstr "Automatische Labels"
+#: caliopen_website/templates/layout/features.jinja2:55
+msgid "En fonction des choix de l'administrateur du système et des usages de l'utilisateur, Caliopen assigne automatiquement des labels (\"boulot\", \"banque\", \"famille\"...) aux éléments de la timeline."
+msgstr "Nach Wahl des Benutzers und ihre Gewohnheiten wird CaliOpen automatisch Labels (\"Arbeit\", \"Bank\" or \"Familie\" zum Beispiel) für Nachrichte auf der Timeline bestimmen."
+#: caliopen_website/templates/layout/features.jinja2:61
+msgid "Vues personnalisées"
+msgstr "Benutzerdefinierte Ansichten"
+#: caliopen_website/templates/layout/features.jinja2:62
+msgid "Tout résultat de recherche, tout filtre défini par l'utilisateur, toute fonction de tri peuvent être sauvegardés et transformés en \"Vues\" pouvant être réutilisées, ou assignées à un terminal particulier."
+msgstr "Jede Suchergebnis, benutzerdefinierte Filter oder Sortierfunktion kann gespeichert oder als besondere Ansichte verwandelt werden. Diese Ansichten können wiederverwendet oder für ein bestimmtes Gerät bestimmt werden."
+#: caliopen_website/templates/layout/features.jinja2:65
+msgid "Recherche intuitive"
+msgstr "Intuitive Suche"
+#: caliopen_website/templates/layout/features.jinja2:66
+msgid "Toute recherche peut inclure des fonctionnalités de filtrage et de tri. Elle s'effectue dans l'intégralité des données non chiffrées de l'utilisateur (fichiers compris)."
+msgstr "Jede Suche kann bestimmte Sortierfunktionen enthalten. Die Suche wird die ganzen (unverschlüsselten) Daten (sogar Dateien) der Benutzer aufgeführt."
+#: caliopen_website/templates/layout/features.jinja2:72
+msgid "Gestion des terminaux"
+msgstr "Gerätemanagement"
+#: caliopen_website/templates/layout/features.jinja2:73
+msgid "L'utilisateur gère la liste des terminaux qu'il utilise pour accéder à son compte. En fonction de leur niveau de confidentialité, leur usage et leurs droits d'accès ne sont pas toujours les mêmes."
+msgstr "Der Benutzer kann eine Liste aller erlaubte Geräte handeln. Jedes Gerät hat einen verschiedenen Vertraulichkeitstand, und wird nicht jede Nachrichte anzeigen."
+#: caliopen_website/templates/layout/features.jinja2:77
+msgid "Mode dégradé"
+msgstr "Verschlechterte Form"
+#: caliopen_website/templates/layout/features.jinja2:78
+msgid "Lorsque le système détecte un risque d'interception (usage d'un réseau wifi ouvert, utilisation d'un terminal inconnu...), le compte n'est accessible qu'en mode dégradé et n'affichera rien au dessus d'un niveau de confidentialité minimal."
+msgstr "Wenn das System ein  AbfangensRisiko entdeckt (wenn du dich zB zu einem offenen Hot Spot meldest), wird dein Konto nur in einer verschlechterten Form zugänglich. In dieser Form kannst du nur die weniger vertraulichen Nachrichte einsehen."
+#: caliopen_website/templates/layout/features.jinja2:84
+msgid "Paramétrages avancés"
+msgstr "Fortgeschrittene Einstellungen"
+#: caliopen_website/templates/layout/features.jinja2:85
+msgid "L'interface est personnalisable, le niveau minimal d'importance (en dessous duquel un courrier devient indésirable) est géré de façon dynamique, les contacts peuvent être temporairement ignorés, le partage des fichiers automatisé..."
+msgstr "Die Webschnittstelle kannst du anpassen, der niedrigste Wichtigkeitsstand ist dynamisch behandelt. (unter diesem Wichtigkeitsstand werden Nachrichte unerwünscht) Kontakte können zeitweise ignoriert werden. Das Verteilen von Dateien kann automatisch werden, usw..."
+#: caliopen_website/templates/layout/features.jinja2:89
+msgid "Centralisation des messages"
+msgstr "Zentralisierung der Nachrichte"
+#: caliopen_website/templates/layout/features.jinja2:90
+msgid "La confidentialité concerne la totalité de la correspondance en ligne. Caliopen réunit dans une unique interface les messages privés applicatifs (Twitter, Facebook), le courrier électronique, la messagerie en direct, les SMS...."
+msgstr "Vertraulichkeit muss für alle online-Nachrichte betrachtet werden. CaliOpen sammelt alle diese Nachrichte im selben Tool : den privaten Nachrichte in sozialen Netzwerke (Facebook, Twitter), E-mails, Chats, SMS, usw..."
+#: caliopen_website/templates/layout/features.jinja2:101
+msgid "Nous avons passé beaucoup de temps, avant même d' envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés. C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
+msgstr "Bevor wir eine technische Ideallösung entwickeln konnten, haben wir viele Zeit verbracht, eine ergonomische Schnittstelle zu entwerfen, die alle unsere private Nachrichte aufnehmen kann. An diesem Tag haben wir uns sehr viele Mühe dafür gemacht : je mehr unser Tool attraktiv wird, desto mehr Leute werden es benutzen wollen, und sie vom Interesse der Versicherung ihrer Nachrichte zu überzeugen. Es wäre 	illusorisch zu denken, dass Leute für die Versicherung ihrer Daten sich Mühe geben werden."
+#: caliopen_website/templates/layout/home.jinja2:8
+msgid "Le meilleur moyen de discuter avec vos contacts"
+msgstr "Der beste Weg, mit ihren Kontakten zu reden"
+msgid "Voir mockup"
+msgstr "Entdeck das Modell"
+#: caliopen_website/templates/layout/home.jinja2:16
+#: caliopen_website/templates/layout/tour.jinja2:14
+msgid "Essayer la démo"
+msgstr "Probier die Demoversion"
+#: caliopen_website/templates/layout/home.jinja2:28
+msgid "Origine de Caliopen"
+msgstr "Ursprung des Projekts CaliOpen"
+#: caliopen_website/templates/layout/home.jinja2:29
+msgid "spotlight"
+msgstr "punktstrahler"
+#: caliopen_website/templates/layout/home.jinja2:30
+msgid "Connaitre l'idée initiatrice du projet présentée par Laurent Chemla."
+msgstr "Discover the initial idea of this project presented by Laurent Chemla."
+#: caliopen_website/templates/layout/home.jinja2:34
+msgid "CaliOpen sur GitHub"
+msgstr "CaliOpen on GitHub"
+#: caliopen_website/templates/layout/home.jinja2:36
+msgid "Participer au développement du projet et s'impliquer."
+msgstr "Participate in the development of the project and get involved."
+#: caliopen_website/templates/layout/home.jinja2:40
+msgid "CaliOpen en détails"
+msgstr "CaliOpen lang und breit"
+#: caliopen_website/templates/layout/home.jinja2:41
+#: caliopen_website/templates/layout/page.jinja2:34
+#: caliopen_website/templates/layout/page.jinja2:36
+#: caliopen_website/templates/layout/tour.jinja2:55
+msgid "Fonctionnalités"
+msgstr "Kenndaten"
+#: caliopen_website/templates/layout/home.jinja2:42
+msgid "Découvrir toutes les fonctionnalités clés de l'application et notre vision."
+msgstr "Entdeck alle Kenndaten der Anwendung und wie wir sie beabsichtigen."
+#: caliopen_website/templates/layout/page.jinja2:20
+#: caliopen_website/templates/layout/page.jinja2:22
+msgid "Faire un tour"
+msgstr "Schau dich um !"
+#: caliopen_website/templates/layout/page.jinja2:27
+#: caliopen_website/templates/layout/page.jinja2:29
+#: caliopen_website/templates/layout/tour.jinja2:51
+msgid "A propos"
+msgstr "Über CaliOpen"
+#: caliopen_website/templates/layout/page.jinja2:41
+#: caliopen_website/templates/layout/page.jinja2:43
+msgid "Nous contacter"
+msgstr "Kontakt zu uns"
+#: caliopen_website/templates/layout/page.jinja2:58
+msgid "Un projet soutenu par"
+msgstr "Dieses Projekt ist unterstützt bei"
+#: caliopen_website/templates/layout/page.jinja2:65
+msgid "Produit"
+msgstr "Produkt"
+#: caliopen_website/templates/layout/page.jinja2:66
+msgid "Les origines"
+msgstr "Der Ursprung"
+#: caliopen_website/templates/layout/page.jinja2:67
+msgid "Téléchargement"
+msgstr "Download"
+#: caliopen_website/templates/layout/page.jinja2:73
+msgid "Communauté"
+msgstr "Gemeinschaft"
+#: caliopen_website/templates/layout/tour.jinja2:8
+msgid "Et votre vie privée devient complétement privée..."
+msgstr "Und dein Privatleben wieder völlig privat wird..."
+#: caliopen_website/templates/layout/tour.jinja2:10
+msgid "Centraliser toutes vos communications privées"
+msgstr "Zentralisierung aller deiner privaten Nachrichte"
+#: caliopen_website/templates/layout/tour.jinja2:11
+msgid "Partager en toute sécurité des informations confidentielles"
+msgstr "Vertrauliche Informationen sicher auszutauschen"
+#: caliopen_website/templates/layout/tour.jinja2:12
+msgid "Profiter d'une interface intuitive"
+msgstr "Genieß eine intuitive Schnittstelle"
+#: caliopen_website/templates/layout/tour.jinja2:29
+msgid "centraliser"
+msgstr "zentralisieren"
+#: caliopen_website/templates/layout/tour.jinja2:30
+msgid "Une application pour centraliser toutes vos communications privées, à tout moment, partout"
+msgstr "Ein Tool, das alle deine privaten Nachrichte überall jederzeit zentralisiert"
+#: caliopen_website/templates/layout/tour.jinja2:33
+msgid "confidentialité"
+msgstr "Vertraulichkeit"
+#: caliopen_website/templates/layout/tour.jinja2:34
+msgid "Un outil pour contrôler et vérifier le niveau de confidentialité de vos contacts, messages, fichiers, périphériques ou autre"
+msgstr "CaliOpen ist ein Tool, das dich erlaubt, der Vertraulichkeitstand deiner Kontakte, Nachrichte, Dateien, Geräte jederzeit zu kennen"
+#: caliopen_website/templates/layout/tour.jinja2:37
+msgid "expérience utilisateur"
+msgstr "Benutzererfahrung"
+#: caliopen_website/templates/layout/tour.jinja2:38
+msgid "Une expérience utilisateur moderne pour une meilleure sensation, tout est naturel avec un design bien pensé"
+msgstr "Eine ganz neue Benutzererfahrung mit einem selbstverständlichen wohlüberlegten Design"
+#: caliopen_website/templates/layout/tour.jinja2:52
+msgid "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
+msgstr "Wie wurde dieses Projekt geschaffen ? Was sind seine Grundlagen ? Wie ist das anders, als die Tools, die du mit deiner Familie und deinen Freunden zurzeit benutzt ? Entdeck was ein privates soziales Netzwerk wirklich ist."
+#: caliopen_website/templates/layout/tour.jinja2:52
+#: caliopen_website/templates/layout/tour.jinja2:56
+#: caliopen_website/templates/layout/tour.jinja2:60
+msgid "Lire"
+msgstr "Mehr..."
+#: caliopen_website/templates/layout/tour.jinja2:56
+msgid "De nombreuses fonctionnalités avancées sont mises à votre disposition au sein de notre solution. Échangez simplement et sereinement avec votre entourage, et découvrez des possibilités multiples qui sont le fruit d'une longue réflexion et qui désormais vous faciliteront la vie."
+msgstr "Zahlreiche Kenndaten sind zur Verfügung mit CaliOpen."
+#: caliopen_website/templates/layout/tour.jinja2:59
+msgid "Contact"
+msgstr "Kontakt"
+#: caliopen_website/templates/layout/tour.jinja2:60
+msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
+msgstr "Möchtest du deine Meinung äußern ? Willst du an der Abenteuer teilnehmen und ein neues Tool zu entwickeln, das völlig unseren Weg verändert, Nachrichte auszutauschen ? Komm
+
+Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Hilf uns und mach' mit !"
+#~ msgid ""
+#~ msgstr ""
