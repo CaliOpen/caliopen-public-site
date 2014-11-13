@@ -198,13 +198,13 @@ msgid "spotlight"
 msgstr "punktstrahler"
 #: caliopen_website/templates/layout/home.jinja2:30
 msgid "Connaitre l'idée initiatrice du projet présentée par Laurent Chemla."
-msgstr "Discover the initial idea of this project presented by Laurent Chemla."
+msgstr "Entdeck das Grundidee von Laurent Chemla vorgestellt ."
 #: caliopen_website/templates/layout/home.jinja2:34
 msgid "CaliOpen sur GitHub"
-msgstr "CaliOpen on GitHub"
+msgstr "CaliOpen auf GitHub"
 #: caliopen_website/templates/layout/home.jinja2:36
 msgid "Participer au développement du projet et s'impliquer."
-msgstr "Participate in the development of the project and get involved."
+msgstr "Nimm an der Entwicklung des Projekts teil, mach mit !"
 #: caliopen_website/templates/layout/home.jinja2:40
 msgid "CaliOpen en détails"
 msgstr "CaliOpen lang und breit"
