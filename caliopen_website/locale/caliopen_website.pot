@@ -59,7 +59,7 @@ msgid ""
 msgstr ""
 
 #: caliopen_website/templates/layout/about.jinja2:44
-msgid "Un outils ouvert"
+msgid "Un outil ouvert"
 msgstr ""
 
 #: caliopen_website/templates/layout/about.jinja2:45
@@ -158,7 +158,7 @@ msgid ""
 "Pour avancer plus rapidement sur le développement de notre interface "
 "utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, "
 "Python). Nous avons besoin de compétences dans le domaine de la cryptographie"
-" aussi, pour valider nos choix ou pour les améliorer.\n"
+", pour valider nos choix ou pour les améliorer.\n"
 "\n"
 "Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
 msgstr ""

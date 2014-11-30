@@ -44,7 +44,7 @@ msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage 
 msgstr "Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier."
 
 #: caliopen_website/templates/layout/about.jinja2:44
-msgid "Un outils ouvert"
+msgid "Un outil ouvert"
 msgstr "Un outil ouvert"
 
 #: caliopen_website/templates/layout/about.jinja2:45
@@ -108,10 +108,10 @@ msgstr "Aujourd'hui, nous avons besoin d'aide."
 
 #: caliopen_website/templates/layout/contact.jinja2:9
 msgid ""
-"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.\n"
+"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n"
 "\n"
 "Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
-msgstr "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.<br/><br/>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
+msgstr "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.<br/><br/>Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
 
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
