@@ -29,7 +29,7 @@ msgid ""
 "Nous avons parlé, ce jour là, d'un ancien projet de service de courrier électronique, respectueux de la vie privée des utilisateurs, mais qui - face à l'ogre Google - n'a jamais vu le jour. Jérémie m'a alors poussé à relancer ce projet, expliquant que désormais, grâce à Edward Snowden, une partie du public était sans doute prête à quitter GMail et les autres pour quelque chose de moins centralisé, de moins propriétaire, et qui ne soit pas basé sur l'exploitation du contenu de nos échanges privés.\n"
 "\n"
 "Depuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur."
-msgstr "One day, not long after Edward Snowden's revelations of NSA spying, Jérémie Zimmermann prompted me to revive a former project of mine, which had been abandoned in the darkness of Google's monolithic shadow. The world simply didn't see a need for a secure email service that respects its users' privacy.<br/><br/>Recognizing that the time had come when people were ready to leave the proprietary, centralized services whose very revenue streams were dependent on the exploitation of our private communicatons, I decided to re-embark on this adventure.<br/><br/>Caliop's time had come.<br/><br/>Since that day, our team, thanks to the unfaltering support of Gandi and Quadrature du Net, has been working very hard."
+msgstr "One day, not long after Edward Snowden's revelations of NSA spying, Jérémie Zimmermann prompted me to revive a former project of mine, which had been abandoned in the darkness of Google's monolithic shadow. The world simply didn't see a need for a secure email service that respects its users' privacy.<br/><br/>Recognizing that the time had come when people were ready to leave the proprietary, centralized services whose very revenue streams were dependent on the exploitation of our private communicatons, I decided to re-embark on this adventure.<br/><br/>Caliopen's time had come.<br/><br/>Since that day, our team, thanks to the unfaltering support of Gandi and Quadrature du Net, has been working very hard."
 
 #: caliopen_website/templates/layout/about.jinja2:20
 msgid "Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne."
@@ -45,7 +45,7 @@ msgstr "The means of guaranteeing one's online privacy exist, but their use rema
 
 #: caliopen_website/templates/layout/about.jinja2:44
 msgid "Un outils ouvert"
-msgstr "Caliop will be sustainable, secure, free, and open."
+msgstr "Caliopen will be sustainable, secure, free, and open."
 
 #: caliopen_website/templates/layout/about.jinja2:45
 msgid ""
@@ -60,14 +60,14 @@ msgstr "To support the evolution of services based on our application, we need t
 
 #: caliopen_website/templates/layout/about.jinja2:49
 msgid "Un label Caliopen"
-msgstr "Caliop will be decentralized."
+msgstr "Caliopen will be decentralized."
 
 #: caliopen_website/templates/layout/about.jinja2:50
 msgid ""
 "Nous avons imaginé une association, qui donnera un label aux services qui le demanderont.\n"
 "\n"
 "Ce label, couplé à un certificat de chiffrement, permettra les échanges privés à l'intérieur de notre écosystème tout en garantissant à l'utilisateur final le respect d'une charte interdisant toute utilisation de ses données privées à des fins commerciales."
-msgstr "We therefore plan to create an association to certify services based on Caliop, and which will ensure Caliop's continued development.<br/><br/>The certification, along with an SSL certificate, will allow private exchanges within an ecosystem. Services choosing to use our tool will, in exchange, guarantee to the end user the respect of a charter forbidding the usage of their private data for commercial purposes."
+msgstr "We therefore plan to create an association to certify services based on Caliopen, and which will ensure Caliopen's continued development.<br/><br/>The certification, along with an SSL certificate, will allow private exchanges within an ecosystem. Services choosing to use our tool will, in exchange, guarantee to the end user the respect of a charter forbidding the usage of their private data for commercial purposes."
 
 #: caliopen_website/templates/layout/about.jinja2:53
 #: caliopen_website/templates/layout/features.jinja2:39
@@ -81,11 +81,11 @@ msgid ""
 "En connaissant le niveau global de confidentialité de ses contacts, un utilisateur peut décider d'accorder plus de confiance à tel ou untel, privilégiant ceux qui affichent un haut niveau de sécurité, et poussant ainsi ses autres correspondants à utiliser eux aussi les outils de chiffrement mis à leur disposition.\n"
 "\n"
 "De même, l'utilisateur doit pouvoir choisir de n'afficher que ses échanges les moins importants lorsqu'il utilise un terminal peu sécurisé (et qui ne lui permet pas d'offrir à ses correspondants le degré de confidentialité qu'ils attendent de lui), sauf à voir son propre niveau baisser et risquer d'être considéré comme un contact \"à risque\"."
-msgstr "A visual indicator of the level of confidentiality of a given interaction will be visible on Caliop's interface at all times. This will reflect not only the user's own protective measures, but also those of their correspondents and the servers between them.<br/><br/>By knowing the global level of her contacts' trustworthiness, a user can make an educated decision about whom to entrust with her correspondence, allowing her to favor those correspondents with a higher security level, and encouraging others to themselves use better security in their communications."
+msgstr "A visual indicator of the level of confidentiality of a given interaction will be visible on Caliopen's interface at all times. This will reflect not only the user's own protective measures, but also those of their correspondents and the servers between them.<br/><br/>By knowing the global level of her contacts' trustworthiness, a user can make an educated decision about whom to entrust with her correspondence, allowing her to favor those correspondents with a higher security level, and encouraging others to themselves use better security in their communications."
 
 #: caliopen_website/templates/layout/about.jinja2:57
 msgid "Changer les comportements"
-msgstr "Caliop will help push for encryption."
+msgstr "Caliopen will help push for encryption."
 
 #: caliopen_website/templates/layout/about.jinja2:58
 msgid ""
@@ -96,7 +96,7 @@ msgstr "We believe it is possible, using the power of social interaction, to cre
 
 #: caliopen_website/templates/layout/about.jinja2:61
 msgid "Un nouveau départ"
-msgstr "Caliop būs citadaks."
+msgstr "Caliopen būs citadaks."
 
 #: caliopen_website/templates/layout/about.jinja2:62
 msgid "Nous avons la chance, à la différence des opérateurs déjà présents, de partir d'une feuille blanche. Nous n'avons pas à craindre de perdre nos utilisateurs si nous leur proposons une interface radicalement différente, plus adaptée au monde moderne, où nos échanges privés ne sont pas restreints au courrier électronique mais passent par le SMS, l'IRC, les messages privés de Twitter, WebRTC..."

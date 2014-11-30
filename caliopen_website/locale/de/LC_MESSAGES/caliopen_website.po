@@ -28,7 +28,7 @@ msgid ""
 "Nous avons parlé, ce jour là, d'un ancien projet de service de courrier électronique, respectueux de la vie privée des utilisateurs, mais qui - face à l'ogre Google - n'a jamais vu le jour. Jérémie m'a alors poussé à relancer ce projet, expliquant que désormais, grâce à Edward Snowden, une partie du public était sans doute prête à quitter GMail et les autres pour quelque chose de moins centralisé, de moins propriétaire, et qui ne soit pas basé sur l'exploitation du contenu de nos échanges privés.\n"
 "\n"
 "Depuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur."
-msgstr "Eines Tages ist Jérémie Zimmermann in den Ferien, während des PRISM Skandals bei mir vorbeigekommen. An jenem Tag haben wir von einem alten E-Mail-Programm Projekt gesprochen, das das Privatleben der Benutzer völlig respektiert. Wegen der zu großen Macht von Google, ist dieses Projekt nie aufgekommen. Jérémie hat also mich gedrängt, dieses Projekt wieder anzuwerfen, weil Leute jetzt dank Edward Snowden bestimmt gerüstet sind, Gmail zu verlassen, um einen dezentralisierten Dienst zu benutzen, der Privatdaten der Benutzer nicht ausnutzt.<br/><br/>Caliop's Zeit ist gekommen.<br/><br/>Von diesem Tag an haben wir mit einem Team sehr hart gearbeitet. Dieses Team wurde dank der unerbittlichen Unterstützung von Gandi und La Quadrature du Net vereinigt."
+msgstr "Eines Tages ist Jérémie Zimmermann in den Ferien, während des PRISM Skandals bei mir vorbeigekommen. An jenem Tag haben wir von einem alten E-Mail-Programm Projekt gesprochen, das das Privatleben der Benutzer völlig respektiert. Wegen der zu großen Macht von Google, ist dieses Projekt nie aufgekommen. Jérémie hat also mich gedrängt, dieses Projekt wieder anzuwerfen, weil Leute jetzt dank Edward Snowden bestimmt gerüstet sind, Gmail zu verlassen, um einen dezentralisierten Dienst zu benutzen, der Privatdaten der Benutzer nicht ausnutzt.<br/><br/>Caliopen's Zeit ist gekommen.<br/><br/>Von diesem Tag an haben wir mit einem Team sehr hart gearbeitet. Dieses Team wurde dank der unerbittlichen Unterstützung von Gandi und La Quadrature du Net vereinigt."
 #: caliopen_website/templates/layout/about.jinja2:20
 msgid "Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne."
 msgstr "Unser Hauptziel : die breite Öffentlichkeit ermöglichen, ihre Privatdaten online zu schützen."
@@ -40,7 +40,7 @@ msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage 
 msgstr "Sicherheitsmittel sind heute vorhanden, aber sie sind zu schwierig zu verstehen und im Alltag bei den meisten Leuten zu benutzen. Sie sollen vereinfacht werden."
 #: caliopen_website/templates/layout/about.jinja2:44
 msgid "Un outils ouvert"
-msgstr "Caliop will be sustainable, secure, free, and open."
+msgstr "Caliopen will be sustainable, secure, free, and open."
 #: caliopen_website/templates/layout/about.jinja2:45
 msgid ""
 "Nous devons créer un logiciel libre, que n'importe quel administrateur système puisse installer aussi facilement qu'un CMS.\n"
@@ -73,7 +73,7 @@ msgid ""
 msgstr "In jedem Augenblick wird der Benutzer den Vertraulichkeitstand eines Gesprächs einfach auf CaliOpens Webschnittstelle. Dieser Vertraulichkeitstand schaut nicht nur, ob der Benutzer seine Nachrichte wohl schützt, sondern auch was seine Korrespondanten zum Sicherheitszweck tun, und ob die Server gut konfiguriert werden, um die Nachrichtenübertragung zu versichern.<br/><br/>Dieses Sicherheitskenntnis wird den Benutzer helfen, zu entscheiden, ob er Korrespondanten vertrauen kann oder nicht, und die schlechtest geschützten Benutzer zu zureden, sicherer Tools zu benutzen. Diese letzte Benutzer werden dann vielleicht entscheiden ihren eigenen Sicherheitsstand zu verbessern.<br/><br/>CaliOpens Benutzer muss auch entscheiden können, nur weniger vertrauliche Nachrichte anzuzeigen, wenn er ein unsicheres Gerät benutzt (das ermöglicht ihm, die Sicherheit der Nachrichte seiner Korrespondanten zu gewährleisten !), oder er wird als gefährdeter Kontakt betrachtet werden."
 #: caliopen_website/templates/layout/about.jinja2:57
 msgid "Changer les comportements"
-msgstr "Caliop wird zu Verhaltensänderungen beitragen"
+msgstr "Caliopen wird zu Verhaltensänderungen beitragen"
 #: caliopen_website/templates/layout/about.jinja2:58
 msgid ""
 "Ainsi, par le jeu des interactions sociales, nous croyons possible de créer une motivation suffisamment forte pour que les utilisateurs de notre solution prennent l'habitude de sécuriser toujours d'avantage leurs communications et ainsi, pourquoi pas, de pousser y compris les géants du Web à modifier leur approche de la vie privée de leurs propres utilisateurs.\n"
