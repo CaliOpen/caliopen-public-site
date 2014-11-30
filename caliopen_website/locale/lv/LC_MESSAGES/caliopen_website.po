@@ -44,7 +44,7 @@ msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage 
 msgstr "The means of guaranteeing one's online privacy exist, but their use remains too complex for the majority of users. We must simplify them."
 
 #: caliopen_website/templates/layout/about.jinja2:44
-msgid "Un outils ouvert"
+msgid "Un outil ouvert"
 msgstr "Caliopen will be sustainable, secure, free, and open."
 
 #: caliopen_website/templates/layout/about.jinja2:45
@@ -368,6 +368,3 @@ msgstr "Contact"
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
 msgstr "Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Join us!"
-
-#~ msgid ""
-#~ msgstr ""

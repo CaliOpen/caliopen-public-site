@@ -29,7 +29,7 @@ msgid ""
 "Nous avons parlé, ce jour là, d'un ancien projet de service de courrier électronique, respectueux de la vie privée des utilisateurs, mais qui - face à l'ogre Google - n'a jamais vu le jour. Jérémie m'a alors poussé à relancer ce projet, expliquant que désormais, grâce à Edward Snowden, une partie du public était sans doute prête à quitter GMail et les autres pour quelque chose de moins centralisé, de moins propriétaire, et qui ne soit pas basé sur l'exploitation du contenu de nos échanges privés.\n"
 "\n"
 "Depuis ce jour, avec une équipe réunie grâce au soutien sans faille de Gandi et de la Quadrature du Net, nous avons travaillé dur."
-msgstr "One day, not long after Edward Snowden's revelations of NSA spying, Jérémie Zimmermann prompted me to revive a former project of mine, which had been abandoned in the darkness of Google's monolithic shadow. The world simply didn't see a need for a secure email service that respects its users' privacy.<br/><br/>Recognizing that the time had come when people were ready to leave the proprietary, centralized services whose very revenue streams were dependent on the exploitation of our private communicatons, I decided to re-embark on this adventure.<br/><br/>Caliopen's time had come.<br/><br/>Since that day, our team, thanks to the unfaltering support of Gandi and Quadrature du Net, has been working very hard."
+msgstr "One day, not long after Edward Snowden's revelations of NSA spying, Jérémie Zimmermann prompted me to revive a former project of mine, which had been abandoned in the darkness of Google's monolithic shadow. The world simply didn't see a need for a secure email service that respects its users' privacy.<br/><br/>Recognizing that the time had come when people were ready to leave the proprietary, centralized services whose very revenue streams were dependent on the exploitation of our private communicatons, I decided to re-embark on this adventure.<br/><br/>Caliopen's time had come.<br/><br/>Since that day, our team, thanks to the unfaltering support of Gandi and la Quadrature du Net, has been working very hard."
 
 #: caliopen_website/templates/layout/about.jinja2:20
 msgid "Notre objectif premier : redonner la possibilité au plus grand nombre de protéger sa vie privée en ligne."
@@ -37,14 +37,14 @@ msgstr "Our primary objective: offer the possibility to protect one's online pri
 
 #: caliopen_website/templates/layout/about.jinja2:27
 msgid "La centralisation des outils de correspondance privée est allée trop loin, et met en danger les données privées des utilisateurs. Il faut un outil décentralisé."
-msgstr "The centralization of private correspondence tools has gone too far, putting users' private data in danger.  We need a decentralized tool."
+msgstr "The centralization of private correspondence tools has gone too far, putting users' private data in danger. We need a decentralized tool."
 
 #: caliopen_website/templates/layout/about.jinja2:31
 msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier."
 msgstr "The means of guaranteeing one's online privacy exist, but their use remains too complex for the majority of users. We must simplify them."
 
 #: caliopen_website/templates/layout/about.jinja2:44
-msgid "Un outils ouvert"
+msgid "Un outil ouvert"
 msgstr "Caliopen will be sustainable, secure, free, and open."
 
 #: caliopen_website/templates/layout/about.jinja2:45
@@ -67,7 +67,7 @@ msgid ""
 "Nous avons imaginé une association, qui donnera un label aux services qui le demanderont.\n"
 "\n"
 "Ce label, couplé à un certificat de chiffrement, permettra les échanges privés à l'intérieur de notre écosystème tout en garantissant à l'utilisateur final le respect d'une charte interdisant toute utilisation de ses données privées à des fins commerciales."
-msgstr "We therefore plan to create an association to certify services based on Caliopen, and which will ensure Caliopen's continued development.<br/><br/>The certification, along with an SSL certificate, will allow private exchanges within an ecosystem.  Services choosing to use our tool will, in exchange, guarantee to the end user the respect of a charter forbidding the usage of their private data for commercial purposes."
+msgstr "We therefore plan to create an association to certify services based on Caliopen, and which will ensure Caliopen's continued development.<br/><br/>The certification, along with an SSL certificate, will allow private exchanges within an ecosystem. Services choosing to use our tool will, in exchange, guarantee to the end user the respect of a charter forbidding the usage of their private data for commercial purposes."
 
 #: caliopen_website/templates/layout/about.jinja2:53
 #: caliopen_website/templates/layout/features.jinja2:39
@@ -92,7 +92,7 @@ msgid ""
 "Ainsi, par le jeu des interactions sociales, nous croyons possible de créer une motivation suffisamment forte pour que les utilisateurs de notre solution prennent l'habitude de sécuriser toujours d'avantage leurs communications et ainsi, pourquoi pas, de pousser y compris les géants du Web à modifier leur approche de la vie privée de leurs propres utilisateurs.\n"
 "\n"
 "Et la longue histoire du logiciel libre nous l'a appris à la dure : il ne suffit pas de proposer un outil équivalent à ce qui existe déjà. La grande majorité des utilisateurs n'a pas le courage, ou l'envie, de changer d'adresse email, même pour protéger sa vie privée."
-msgstr "We believe it is possible, using the power of social interaction, to create a strong enough incentive for users to get into the habit of constantly improving the security of their communications.<br/><br/>To this end, a user can, for example, choose to only display the least important exchanges when she is using a device that does not meet her standards for security (or the standards of those with whom she is communicating); otherwise her level of trustworthiness will drop, and she will be considered a riskier contact to others.<br/><br/>By integrating this social dimension into the design of the project, we hope to see users take a more active role in their own security, and take better advantage of the encryption tools available to them, even if it means foregoing other conveniences."
+msgstr "We believe it is possible, using the power of social interactions, to create a strong enough incentive for users to get into the habit of constantly improving the security of their communications.<br/><br/>To this end, a user can, for example, choose to only display the least important exchanges when she is using a device that does not meet her standards of security (or the standards of those with whom she is communicating); otherwise her level of trustworthiness will drop, and she will be considered a riskier contact to others.<br/><br/>By integrating this social dimension into the design of the project, we hope to see users take a more active role in their own security, and take better advantage of the encryption tools available to them, even if it means foregoing other conveniences."
 
 #: caliopen_website/templates/layout/about.jinja2:61
 msgid "Un nouveau départ"
@@ -108,10 +108,10 @@ msgstr "Today, we need help."
 
 #: caliopen_website/templates/layout/contact.jinja2:9
 msgid ""
-"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.\n"
+"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n"
 "\n"
 "Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
-msgstr "In order for the development of our user interface to advance quickly, we need web developers (Angular, Pyramid, Python). We also need anyone with a strong background in cryptography who could collaborate by validating our choices and strengthening them.<br/><br/>Any questions or a desire to help out?  Please don't hesitate to contact us directly."
+msgstr "In order for the development of our user interface to advance quickly, we need web developers (Angular, Pyramid, Python). We also need anyone with a strong background in cryptography who could collaborate by validating our choices and strengthening them.<br/><br/>Any questions or a desire to help out? Please don't hesitate to contact us directly."
 
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
@@ -209,11 +209,11 @@ msgstr "When the system detects a risk of interception (such as through an open 
 
 #: caliopen_website/templates/layout/features.jinja2:84
 msgid "Paramétrages avancés"
-msgstr "Advance parameters"
+msgstr "Advanced parameters"
 
 #: caliopen_website/templates/layout/features.jinja2:85
 msgid "L'interface est personnalisable, le niveau minimal d'importance (en dessous duquel un courrier devient indésirable) est géré de façon dynamique, les contacts peuvent être temporairement ignorés, le partage des fichiers automatisé..."
-msgstr "The interface is customizable, the minimal level of importance (below which an email becomes undesirable) is managed in a dynamic fashion.  Contacts can be temporarily ignored or the sharing of documents can be automated."
+msgstr "The interface is customizable, the minimal level of importance (below which an email becomes undesirable) is managed in a dynamic fashion. Contacts can be temporarily ignored or the sharing of documents can be automated."
 
 #: caliopen_website/templates/layout/features.jinja2:89
 msgid "Centralisation des messages"
@@ -351,7 +351,7 @@ msgstr "A modern user experience for a better feeling with the application, ever
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 msgid "Comment ce projet est-il né ? Quels en sont les fondements ? En quoi est-ce différent de tout ce que vous utilisez actuellement pour dialoguer avec vos amis ou votre famille. Découvrez la notion de réseau social privé qui change tout, à commencer par le respect de votre vie privée."
-msgstr "Why this project?  What is the point?  How is it different from what you are currently using to communicate with family, friends and colleagues?"
+msgstr "Why this project? What is the point? How is it different from what you are currently using to communicate with family, friends and colleagues?"
 
 #: caliopen_website/templates/layout/tour.jinja2:52
 #: caliopen_website/templates/layout/tour.jinja2:56
@@ -369,7 +369,5 @@ msgstr "Contact"
 
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
-msgstr "Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Help us and join us!"
+msgstr "Would you like to express your opinion on CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way people communicate? Help us, join us!"
 
-#~ msgid ""
-#~ msgstr ""

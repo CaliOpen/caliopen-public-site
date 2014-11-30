@@ -39,7 +39,7 @@ msgstr "Die Zentralisierung der Tools für private Korrespondenzen ist zu weit g
 msgid "Les moyens de garantir sa vie privée en ligne existent, mais leur usage reste trop complexe pour la plupart des utilisateurs. Il faut les simplifier."
 msgstr "Sicherheitsmittel sind heute vorhanden, aber sie sind zu schwierig zu verstehen und im Alltag bei den meisten Leuten zu benutzen. Sie sollen vereinfacht werden."
 #: caliopen_website/templates/layout/about.jinja2:44
-msgid "Un outils ouvert"
+msgid "Un outil ouvert"
 msgstr "Caliopen will be sustainable, secure, free, and open."
 #: caliopen_website/templates/layout/about.jinja2:45
 msgid ""
@@ -91,7 +91,7 @@ msgid "Aujourd'hui, nous avons besoin d'aide."
 msgstr "Wir brauchen eure Hilfe !"
 #: caliopen_website/templates/layout/contact.jinja2:9
 msgid ""
-"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie aussi, pour valider nos choix ou pour les améliorer.\n"
+"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n"
 "\n"
 "Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
 msgstr "Web-Entwickler (Angular,Pyramid und Python) sind gebraucht, damit wir unsere Webschnittstelle schneller weitermachen können. Wir brauchen auch Leute, die kryptographische Kenntnisse haben, um unsere Wähle zu bestätigen oder zu verbessern.<br/><br/>Bei Fragen oder um deine Hilfe anzubieten, nimm Kontakt mit uns auf !"
@@ -291,8 +291,4 @@ msgid "Contact"
 msgstr "Kontakt"
 #: caliopen_website/templates/layout/tour.jinja2:60
 msgid "Vous voulez nous communiquer votre avis ? Envie de prendre part à l'aventure ? Vous voulez participer à la création d'un nouvel outil, qui vise à changer radicalement la manière d'échanger avec ses proches ? Aidez-nous, rejoignez-nous."
-msgstr "Möchtest du deine Meinung äußern ? Willst du an der Abenteuer teilnehmen und ein neues Tool zu entwickeln, das völlig unseren Weg verändert, Nachrichte auszutauschen ? Komm
-
-Would you like to express your opinion of CaliOpen? Want to be a part of the adventure and participate in the creation of a new tool which aims to radically change the way in which people communicate? Hilf uns und mach' mit !"
-#~ msgid ""
-#~ msgstr ""
+msgstr "Möchtest du deine Meinung äußern ? Willst du an der Abenteuer teilnehmen und ein neues Tool zu entwickeln, das völlig unseren Weg verändert, Nachrichte auszutauschen ? Komm Hilf uns und mach' mit !"
