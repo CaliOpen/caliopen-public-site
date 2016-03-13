@@ -97,7 +97,7 @@ msgid ""
 msgstr "Web-Entwickler (Angular,Pyramid und Python) sind gebraucht, damit wir unsere Webschnittstelle schneller weitermachen können. Wir brauchen auch Leute, die kryptographische Kenntnisse haben, um unsere Wähle zu bestätigen oder zu verbessern.<br/><br/>Bei Fragen oder um deine Hilfe anzubieten, nimm Kontakt mit uns auf !"
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
-msgid "Forker nous sur GitHub"
+msgid "Forkez nous sur GitHub"
 msgstr "Spaltet unser GitHub Repository auf"
 #: caliopen_website/templates/layout/contact.jinja2:21
 #: caliopen_website/templates/layout/home.jinja2:35
@@ -115,12 +115,15 @@ msgstr "Nimm Kontakt mit dem Team auf"
 #: caliopen_website/templates/layout/contact.jinja2:26
 msgid "enveloppe"
 msgstr "Briefumschlag"
-#: caliopen_website/templates/layout/contact.jinja2:30
+#: caliopen_website/templates/layout/contact.jinja2:31
 msgid "Nous contacter sur irc"
 msgstr "Chatte mit uns im IRC"
-#: caliopen_website/templates/layout/contact.jinja2:31
+#: caliopen_website/templates/layout/contact.jinja2:32
 msgid "bubble"
 msgstr "Bulle"
+#: caliopen_website/templates/layout/contact.jinja2:36
+msgid "Nous suivre sur Trello"
+msgstr "Follow us on Trello"
 #: caliopen_website/templates/layout/features.jinja2:40
 msgid "Calculé pour chaque élément de l'interface (compte, message, contact...), ce niveau est à la fois un indicateur de confiance et une incitation à mieux se protéger."
 msgstr "Jede Nachrichtelement (Konto, Nachricht oder Kontakt) wird einen Vertraulichkeitstand bekommen. Der Vertraulichkeitstand schaut wie du diese Nachricht vertrauen kannst, und ermuntert dich und deine Kontakten, sich besser zu schützen."

@@ -107,15 +107,12 @@ msgid "Aujourd'hui, nous avons besoin d'aide."
 msgstr "Today, we need help."
 
 #: caliopen_website/templates/layout/contact.jinja2:9
-msgid ""
-"Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n"
-"\n"
-"Pour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
+msgid "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Ember.js, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n\nPour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
 msgstr "In order for the development of our user interface to advance quickly, we need web developers (Angular, Pyramid, Python). We also need anyone with a strong background in cryptography who could collaborate by validating our choices and strengthening them.<br/><br/>Any questions or a desire to help out? Please don't hesitate to contact us directly."
 
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
-msgid "Forker nous sur GitHub"
+msgid "Forkez nous sur GitHub"
 msgstr "Fork us on GitHub"
 
 #: caliopen_website/templates/layout/contact.jinja2:21
@@ -139,13 +136,17 @@ msgstr "Contact the CaliOpen team"
 msgid "enveloppe"
 msgstr "enveloppe"
 
-#: caliopen_website/templates/layout/contact.jinja2:30
+#: caliopen_website/templates/layout/contact.jinja2:31
 msgid "Nous contacter sur irc"
 msgstr "Contact us on irc"
 
-#: caliopen_website/templates/layout/contact.jinja2:31
+#: caliopen_website/templates/layout/contact.jinja2:32
 msgid "bubble"
 msgstr "bubble"
+
+#: caliopen_website/templates/layout/contact.jinja2:36
+msgid "Nous suivre sur Trello"
+msgstr "Follow us on Trello"
 
 #: caliopen_website/templates/layout/features.jinja2:40
 msgid "Calculé pour chaque élément de l'interface (compte, message, contact...), ce niveau est à la fois un indicateur de confiance et une incitation à mieux se protéger."

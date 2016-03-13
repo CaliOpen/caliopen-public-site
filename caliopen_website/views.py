@@ -4,8 +4,8 @@ from pyramid.view import view_config
 from .lang import locale_negotiator
 
 project = 'caliopen'
-page_description = 'CaliOpen, be safe.'
-page_title = 'CaliOpen, be safe.'
+page_description = 'CaliOpen, be good.'
+page_title = 'CaliOpen, be good.'
 page_author = 'Gandi'
 use_less = False
 

@@ -115,7 +115,7 @@ msgstr "Pour avancer plus rapidement sur le développement de notre interface ut
 
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
-msgid "Forker nous sur GitHub"
+msgid "Forkez nous sur GitHub"
 msgstr "Nous forker sur GitHub"
 
 #: caliopen_website/templates/layout/contact.jinja2:21
@@ -139,13 +139,17 @@ msgstr "Contacter l'équipe CaliOpen"
 msgid "enveloppe"
 msgstr "enveloppe"
 
-#: caliopen_website/templates/layout/contact.jinja2:30
+#: caliopen_website/templates/layout/contact.jinja2:31
 msgid "Nous contacter sur irc"
 msgstr "Nous contacter sur irc"
 
-#: caliopen_website/templates/layout/contact.jinja2:31
+#: caliopen_website/templates/layout/contact.jinja2:32
 msgid "bubble"
 msgstr "bubble"
+
+#: caliopen_website/templates/layout/contact.jinja2:36
+msgid "Nous suivre sur Trello"
+msgstr "Nous suivre sur Trello"
 
 #: caliopen_website/templates/layout/features.jinja2:40
 msgid "Calculé pour chaque élément de l'interface (compte, message, contact...), ce niveau est à la fois un indicateur de confiance et une incitation à mieux se protéger."

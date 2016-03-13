@@ -165,7 +165,7 @@ msgstr ""
 
 #: caliopen_website/templates/layout/contact.jinja2:20
 #: caliopen_website/templates/layout/page.jinja2:74
-msgid "Forker nous sur GitHub"
+msgid "Forkez nous sur GitHub"
 msgstr ""
 
 #: caliopen_website/templates/layout/contact.jinja2:21

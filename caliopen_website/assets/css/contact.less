@@ -30,7 +30,7 @@ main {
 
 #contact-icons {
   article {
-    .make-md-column(4);
+    .make-md-column(3);
     min-height: 250px;
 
     &#github, &#blog {
@@ -79,6 +79,19 @@ main {
         .center-block();
         &:hover {
           background-image: url('/assets/images/contact_email_hover.png');
+        }
+      }
+    }
+
+    &#trello {
+      background: #EEEEEE;
+
+      a {
+        background-image: url('/assets/images/contact_trello.png');
+        .size(88px, 88px);
+        .center-block();
+        &:hover {
+          background-image: url('/assets/images/contact_trello_hover.png');
         }
       }
     }
