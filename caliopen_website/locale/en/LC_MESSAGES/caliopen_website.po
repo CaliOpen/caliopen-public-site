@@ -107,7 +107,7 @@ msgid "Aujourd'hui, nous avons besoin d'aide."
 msgstr "Today, we need help."
 
 #: caliopen_website/templates/layout/contact.jinja2:9
-msgid "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Ember.js, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n\nPour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
+msgid "Pour avancer plus rapidement sur le développement de notre interface utilisateur, nous avons besoin de développeurs Web (Angular, Pyramid, Python). Nous avons besoin de compétences dans le domaine de la cryptographie, pour valider nos choix ou pour les améliorer.\n\nPour toute question, ou pour proposer votre aide, vous pouvez nous contacter."
 msgstr "In order for the development of our user interface to advance quickly, we need web developers (Angular, Pyramid, Python). We also need anyone with a strong background in cryptography who could collaborate by validating our choices and strengthening them.<br/><br/>Any questions or a desire to help out? Please don't hesitate to contact us directly."
 
 #: caliopen_website/templates/layout/contact.jinja2:20
