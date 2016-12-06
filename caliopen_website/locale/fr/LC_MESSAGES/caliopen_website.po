@@ -220,8 +220,8 @@ msgid "L'interface est personnalisable, le niveau minimal d'importance (en desso
 msgstr "L'interface est personnalisable, le niveau minimal d'importance (en dessous duquel un courrier devient indésirable) est géré de façon dynamique, les contacts peuvent être temporairement ignorés, le partage des fichiers automatisé..."
 
 #: caliopen_website/templates/layout/features.jinja2:89
-msgid "Centralisation des messages"
-msgstr "Centralisation des messages"
+msgid "Regroupement des messages"
+msgstr "Regroupement des messages"
 
 #: caliopen_website/templates/layout/features.jinja2:90
 msgid "La confidentialité concerne la totalité de la correspondance en ligne. Caliopen réunit dans une unique interface les messages privés applicatifs (Twitter, Facebook), le courrier électronique, la messagerie en direct, les SMS...."
@@ -232,8 +232,8 @@ msgid "Nous avons passé beaucoup de temps, avant même d' envisager les solutio
 msgstr "Nous avons passé beaucoup de temps, avant même d'envisager les solutions techniques, à travailler sur l'ergonomie et le design d'une interface utilisateur qui puisse intégrer tous nos échanges privés.<br/>C'est, à ce jour, sur ce point que porte la majorité de nos efforts : si nous voulons intéresser le plus grand nombre à la prise en compte des problématiques de vie privée, c'est à nous de créer un outil attractif, plutôt que d'attendre un effort illusoire des utilisateurs."
 
 #: caliopen_website/templates/layout/home.jinja2:8
-msgid "Le meilleur moyen de discuter avec vos contacts"
-msgstr "Le meilleur moyen de discuter avec vos contacts"
+msgid "Le meilleur moyen de discuter avec vos contacts tout en protégeant votre vie privée"
+msgstr "Le meilleur moyen de discuter avec vos contacts tout en protégeant votre vie privée"
 
 msgid "Voir mockup"
 msgstr "Tester le prototype"
@@ -319,8 +319,8 @@ msgid "Et votre vie privée devient complétement privée..."
 msgstr "Et votre vie privée devient complétement privée..."
 
 #: caliopen_website/templates/layout/tour.jinja2:10
-msgid "Centraliser toutes vos communications privées"
-msgstr "Centraliser toutes vos communications privées"
+msgid "Regrouper toutes vos communications privées"
+msgstr "Regrouper toutes vos communications privées"
 
 #: caliopen_website/templates/layout/tour.jinja2:11
 msgid "Partager en toute sécurité des informations confidentielles"
@@ -331,12 +331,12 @@ msgid "Profiter d'une interface intuitive"
 msgstr "Profiter d'une interface intuitive"
 
 #: caliopen_website/templates/layout/tour.jinja2:29
-msgid "centraliser"
-msgstr "centraliser"
+msgid "Regrouper"
+msgstr "Regrouper"
 
 #: caliopen_website/templates/layout/tour.jinja2:30
-msgid "Une application pour centraliser toutes vos communications privées, à tout moment, partout"
-msgstr "Une application pour centraliser toutes vos communications privées, à tout moment, partout"
+msgid "Une application pour regrouper toutes vos communications privées, à tout moment, partout"
+msgstr "Une application pour regrouper toutes vos communications privées, à tout moment, partout"
 
 #: caliopen_website/templates/layout/tour.jinja2:33
 msgid "confidentialité"
